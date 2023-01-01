@@ -67,14 +67,13 @@ store/
 ```
 
 ## Keyboard
-
-| Key                  | Action                          |
-| -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
 | `Backspace / Delete` | Remove the selected node(s)     |
 | `Double-click` node  | Expand it                       |
+<!-- metadata: a9pk3qrjh3 -->
+<!-- metadata: ix9g0rdalg -->
 
 ## Notes
 
