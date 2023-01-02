@@ -64,18 +64,14 @@ components/
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
+```
+
+## Keyboard
+
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
 | `Shift + drag`       | Box-select multiple nodes       |
-<!-- metadata: tt8vqa7ysa -->
-<!-- metadata: nvkgu6xk5i -->
-<!-- metadata: rddumzz7nn -->
-<!-- metadata: tzza47p1f5 -->
-<!-- metadata: 6tpizyt26g -->
-<!-- metadata: x1lkebrej0 -->
-<!-- metadata: 12ufnmoyck -->
-<!-- metadata: 2m7l2ys6af -->
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
 | `Backspace / Delete` | Remove the selected node(s)     |
 | `Double-click` node  | Expand it                       |
