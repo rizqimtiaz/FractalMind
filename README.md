@@ -31,7 +31,6 @@
 npm install
 
 # 2. add your OpenAI key
-cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
 
 # 3. run
@@ -48,6 +47,9 @@ Open <http://localhost:3000>.
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
 
 ## Architecture
+<!-- metadata: j3upy07z05 -->
+<!-- metadata: sinajnn3nm -->
+<!-- metadata: 1xlj3hvdzr -->
 
 ```
 app/
