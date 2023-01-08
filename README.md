@@ -40,6 +40,14 @@ npm run dev
 
 Open <http://localhost:3000>.
 
+<!-- metadata: la1j7ccr2n -->
+<!-- metadata: 92s2w4hqh8 -->
+<!-- metadata: gvwvrbvrjr -->
+<!-- metadata: 4xyaem5y4r -->
+<!-- metadata: ps9v9ql9d2 -->
+<!-- metadata: b9x4g4j87i -->
+<!-- metadata: h4uhdjdr9g -->
+<!-- metadata: j9uq7mqey9 -->
 ### Environment
 
 | Var              | Required | Description                                  |
@@ -60,8 +68,6 @@ app/
 components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
-  CommandBar.tsx              ← floating ⌘K seed input
-store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
 ```
