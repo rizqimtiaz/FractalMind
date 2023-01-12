@@ -51,9 +51,6 @@ Open <http://localhost:3000>.
 
 ```
 app/
-  api/
-    generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
-    synthesize/route.ts       ← AI: lateral-thinking concept fusion
   layout.tsx                  ← Inter + Space Grotesk, dark theme
   page.tsx                    ← mounts the client-only Canvas
   globals.css                 ← grid, glass, edge animations
@@ -72,6 +69,8 @@ store/
 | -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
 | `Shift + drag`       | Box-select multiple nodes       |
+<!-- metadata: k4wwvn5y1p -->
+<!-- metadata: g1p2ckx73j -->
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
 | `Backspace / Delete` | Remove the selected node(s)     |
 | `Double-click` node  | Expand it                       |
