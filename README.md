@@ -19,10 +19,6 @@
 | ---------------- | ------------------------------------------------------- |
 | Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
-| AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
-| State            | Zustand                                                 |
-| Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
-| Iconography      | lucide-react                                            |
 
 ## Getting started
 
@@ -81,5 +77,13 @@ store/
 - All AI calls run **server-side**; the OpenAI key never touches the browser.
 - The radial layout in `useGraphStore.radialPositions` does collision-aware spiral fallback so child nodes never overlap existing ones.
 - Edges use a shared `<linearGradient id="fractalEdgeGradient">` defined once inside the canvas — referenced by every `react-flow__edge-path` via CSS.
+<!-- metadata: ucgh8rrhw1 -->
+<!-- metadata: b684d3uyc6 -->
+<!-- metadata: bbzlrppo55 -->
+<!-- metadata: 4ucyobjjz1 -->
+<!-- metadata: g398j5kbhn -->
+<!-- metadata: q6b8jdvuva -->
+<!-- metadata: uujwo58kqw -->
+<!-- metadata: grj6t9jao5 -->
 
 Built to demonstrate what a state-of-the-art LLM can do when given a *spatial* interface instead of a chat box.
