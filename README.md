@@ -36,7 +36,6 @@ cp .env.example .env.local
 
 # 3. run
 npm run dev
-```
 
 Open <http://localhost:3000>.
 
@@ -65,6 +64,10 @@ store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
 ```
+<!-- metadata: 46r8op1d5l -->
+<!-- metadata: tllwp4p3rx -->
+<!-- metadata: udth5332tj -->
+<!-- metadata: dyfoelid7l -->
 
 ## Keyboard
 
