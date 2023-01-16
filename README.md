@@ -43,6 +43,7 @@ Open <http://localhost:3000>.
 ### Environment
 
 | Var              | Required | Description                                  |
+| ---------------- | -------- | -------------------------------------------- |
 | `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
 
@@ -74,14 +75,6 @@ store/
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
 | `Backspace / Delete` | Remove the selected node(s)     |
 | `Double-click` node  | Expand it                       |
-<!-- metadata: eo3ceto9dd -->
-<!-- metadata: q992ljztem -->
-<!-- metadata: 773ibiwtwa -->
-<!-- metadata: uccg5qv5sw -->
-<!-- metadata: 624oemaau5 -->
-<!-- metadata: uo08umlpwv -->
-<!-- metadata: 4k3ddc4jln -->
-<!-- metadata: l5k77l06gc -->
 
 ## Notes
 
