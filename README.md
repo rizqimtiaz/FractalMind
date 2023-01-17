@@ -14,10 +14,6 @@
 - Strictly-typed structured AI output via the **Vercel AI SDK** + **Zod** schemas — no JSON parsing, no hallucinated shapes.
 
 ## Tech
-
-| Layer            | Choice                                                  |
-| ---------------- | ------------------------------------------------------- |
-| Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
@@ -64,6 +60,7 @@ components/
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
+<!-- metadata: u2a2exh2w3 -->
 ```
 
 ## Keyboard
