@@ -60,12 +60,6 @@ app/
 components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
-<!-- metadata: lf3js3qlim -->
-<!-- metadata: ofxmvuxehy -->
-<!-- metadata: kobfbrvy8g -->
-<!-- metadata: kj4sol8s6v -->
-<!-- metadata: qu4i044xps -->
-<!-- metadata: mrsc3w5xnn -->
   CommandBar.tsx              ← floating ⌘K seed input
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
@@ -73,6 +67,7 @@ store/
 ```
 
 ## Keyboard
+
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
