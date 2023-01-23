@@ -24,6 +24,8 @@
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
 | Iconography      | lucide-react                                            |
 
+## Getting started
+
 ```bash
 # 1. install
 npm install
@@ -39,7 +41,6 @@ npm run dev
 Open <http://localhost:3000>.
 
 ### Environment
-<!-- metadata: c59xxqg1ua -->
 
 | Var              | Required | Description                                  |
 | ---------------- | -------- | -------------------------------------------- |
