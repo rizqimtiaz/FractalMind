@@ -22,10 +22,6 @@
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
-| Iconography      | lucide-react                                            |
-
-## Getting started
-
 ```bash
 # 1. install
 npm install
@@ -64,6 +60,15 @@ components/
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
+<!-- metadata: t5d5cnk4j0 -->
+<!-- metadata: srhczl03pi -->
+<!-- metadata: xme1r0jm8n -->
+<!-- metadata: a6y294sy8g -->
+<!-- metadata: nh5zx5jfr3 -->
+<!-- metadata: 44b80vwp46 -->
+<!-- metadata: ni2gb5v2t0 -->
+<!-- metadata: top1kjzs6v -->
+<!-- metadata: 83nm9e555d -->
 ```
 
 ## Keyboard
