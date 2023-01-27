@@ -38,6 +38,9 @@ cp .env.example .env.local
 npm run dev
 ```
 
+<!-- metadata: zmoiriwrm5 -->
+<!-- metadata: q8u919seyi -->
+<!-- metadata: b293609dg0 -->
 Open <http://localhost:3000>.
 
 ### Environment
@@ -54,9 +57,6 @@ app/
   api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
-  layout.tsx                  ← Inter + Space Grotesk, dark theme
-  page.tsx                    ← mounts the client-only Canvas
-  globals.css                 ← grid, glass, edge animations
 components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
