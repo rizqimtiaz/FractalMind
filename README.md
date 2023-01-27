@@ -63,10 +63,10 @@ components/
   CommandBar.tsx              ← floating ⌘K seed input
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
+<!-- metadata: 4s6ty34ykr -->
+<!-- metadata: wvsuhav8wj -->
                                 radial layout & ancestry walk
 ```
-
-## Keyboard
 
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
