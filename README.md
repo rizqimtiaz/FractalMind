@@ -24,13 +24,12 @@
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
 | Iconography      | lucide-react                                            |
 
+## Getting started
 
 ```bash
 # 1. install
 npm install
 
-<!-- metadata: grwurzsbml -->
-<!-- metadata: fejm1dot9p -->
 # 2. add your OpenAI key
 cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
