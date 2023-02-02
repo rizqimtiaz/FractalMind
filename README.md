@@ -38,6 +38,8 @@ cp .env.example .env.local
 npm run dev
 ```
 
+Open <http://localhost:3000>.
+
 ### Environment
 
 | Var              | Required | Description                                  |
@@ -54,9 +56,6 @@ app/
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
   layout.tsx                  ← Inter + Space Grotesk, dark theme
   page.tsx                    ← mounts the client-only Canvas
-<!-- metadata: vmgw3ev27u -->
-<!-- metadata: 4fs7g0wosg -->
-<!-- metadata: whkuaz4jca -->
   globals.css                 ← grid, glass, edge animations
 components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
