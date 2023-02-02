@@ -71,12 +71,15 @@ store/
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
+<!-- metadata: h8gwnp74lh -->
+<!-- metadata: ydqnwpc475 -->
+<!-- metadata: 8u7d4nf8si -->
+<!-- metadata: gb268n3gby -->
+<!-- metadata: qp7gbkn5fw -->
+<!-- metadata: 84ztk70zlv -->
+<!-- metadata: 5arrhjn6bk -->
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
-| `Backspace / Delete` | Remove the selected node(s)     |
-| `Double-click` node  | Expand it                       |
-
-## Notes
 
 - All AI calls run **server-side**; the OpenAI key never touches the browser.
 - The radial layout in `useGraphStore.radialPositions` does collision-aware spiral fallback so child nodes never overlap existing ones.
