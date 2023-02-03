@@ -22,8 +22,6 @@
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
-| Iconography      | lucide-react                                            |
-
 ## Getting started
 
 ```bash
@@ -46,6 +44,9 @@ Open <http://localhost:3000>.
 | ---------------- | -------- | -------------------------------------------- |
 | `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
+<!-- metadata: xezy7dod3w -->
+<!-- metadata: wf26di63c8 -->
+<!-- metadata: zdzq2xulxc -->
 
 ## Architecture
 
