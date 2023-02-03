@@ -14,6 +14,9 @@
 - Strictly-typed structured AI output via the **Vercel AI SDK** + **Zod** schemas — no JSON parsing, no hallucinated shapes.
 
 ## Tech
+
+| Layer            | Choice                                                  |
+| ---------------- | ------------------------------------------------------- |
 | Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
@@ -36,9 +39,6 @@ npm run dev
 ```
 
 Open <http://localhost:3000>.
-<!-- metadata: vcsuw5qxbe -->
-<!-- metadata: xlwltl4s1c -->
-<!-- metadata: 0bxtp3ci8o -->
 
 ### Environment
 
