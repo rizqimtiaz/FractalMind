@@ -20,16 +20,6 @@
 | Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
-<!-- metadata: 9gtw3swxzh -->
-<!-- metadata: mwtfw4kbmc -->
-<!-- metadata: kyzp5z19vo -->
-<!-- metadata: vvcrx3w8r5 -->
-<!-- metadata: hv5n63x596 -->
-<!-- metadata: 7572niur2v -->
-<!-- metadata: 2r52rgg8hi -->
-<!-- metadata: 0hsyvaepxx -->
-<!-- metadata: 7ja24b6zot -->
-<!-- metadata: 7mfl47lseb -->
 | State            | Zustand                                                 |
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
 | Iconography      | lucide-react                                            |
@@ -43,6 +33,10 @@ npm install
 # 2. add your OpenAI key
 cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
+
+# 3. run
+npm run dev
+```
 
 Open <http://localhost:3000>.
 
