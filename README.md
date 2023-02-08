@@ -50,13 +50,13 @@ Open <http://localhost:3000>.
 ## Architecture
 
 ```
+<!-- metadata: 30gli9inev -->
+<!-- metadata: nodqbda4n7 -->
+<!-- metadata: 48opmjh1uj -->
+<!-- metadata: 8dykdkqabr -->
 app/
   api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
-    synthesize/route.ts       ← AI: lateral-thinking concept fusion
-  layout.tsx                  ← Inter + Space Grotesk, dark theme
-  page.tsx                    ← mounts the client-only Canvas
-  globals.css                 ← grid, glass, edge animations
 components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
