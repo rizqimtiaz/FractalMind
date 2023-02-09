@@ -29,6 +29,8 @@
 ```bash
 # 1. install
 npm install
+<!-- metadata: igu4qtt6lx -->
+<!-- metadata: 35rnyuqukj -->
 
 # 2. add your OpenAI key
 cp .env.example .env.local
@@ -59,9 +61,6 @@ app/
   globals.css                 ← grid, glass, edge animations
 components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
-  CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
-  CommandBar.tsx              ← floating ⌘K seed input
-store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
 ```
