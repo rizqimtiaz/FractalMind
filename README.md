@@ -58,6 +58,9 @@ app/
   page.tsx                    ← mounts the client-only Canvas
   globals.css                 ← grid, glass, edge animations
 components/
+  Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
+  CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
+  CommandBar.tsx              ← floating ⌘K seed input
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
@@ -75,9 +78,6 @@ store/
 
 ## Notes
 
-<!-- metadata: i1fo3016zj -->
-<!-- metadata: puntjch8re -->
-<!-- metadata: wcdt3gvjjh -->
 - All AI calls run **server-side**; the OpenAI key never touches the browser.
 - The radial layout in `useGraphStore.radialPositions` does collision-aware spiral fallback so child nodes never overlap existing ones.
 - Edges use a shared `<linearGradient id="fractalEdgeGradient">` defined once inside the canvas — referenced by every `react-flow__edge-path` via CSS.
