@@ -22,15 +22,6 @@
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
-<!-- metadata: no5ubkba8k -->
-<!-- metadata: i8ogzdvcmw -->
-<!-- metadata: tg4yrinc0c -->
-<!-- metadata: ev58i43l8e -->
-<!-- metadata: cbeylbobnl -->
-<!-- metadata: n973lfjkry -->
-<!-- metadata: l26swtnl6u -->
-<!-- metadata: u315s0nch8 -->
-<!-- metadata: 5yqsiknw5t -->
 | Iconography      | lucide-react                                            |
 
 ## Getting started
@@ -43,6 +34,8 @@ npm install
 cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
 
+# 3. run
+npm run dev
 ```
 
 Open <http://localhost:3000>.
