@@ -6,6 +6,16 @@
 
 ---
 
+<!-- metadata: ypvqhvcz76 -->
+<!-- metadata: 3nl41lk307 -->
+<!-- metadata: 3rkfhsxzgz -->
+<!-- metadata: zehkij0kl3 -->
+<!-- metadata: rfrkgzgdhb -->
+<!-- metadata: jpzhy5xy2h -->
+<!-- metadata: gqrqkh8mh7 -->
+<!-- metadata: j0mkujcmwr -->
+<!-- metadata: 1h7yga12kj -->
+<!-- metadata: 1kturzlwpd -->
 ## What it does
 
 - **Seed → Bloom.** Type a single idea and the AI cartographs its conceptual frontier into a hand-curated ring of 3–5 sub-topics, neatly arranged on an infinite canvas using radial layout.
@@ -74,8 +84,6 @@ store/
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
 | `Backspace / Delete` | Remove the selected node(s)     |
-| `Double-click` node  | Expand it                       |
-
 ## Notes
 
 - All AI calls run **server-side**; the OpenAI key never touches the browser.
