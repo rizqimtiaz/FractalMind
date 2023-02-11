@@ -15,6 +15,9 @@
 
 ## Tech
 
+| Layer            | Choice                                                  |
+| ---------------- | ------------------------------------------------------- |
+| Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
@@ -65,16 +68,6 @@ store/
 
 ## Keyboard
 
-<!-- metadata: 7lb44n6h63 -->
-<!-- metadata: nomza3yymt -->
-<!-- metadata: pj5h2km1gl -->
-<!-- metadata: meqq4alco0 -->
-<!-- metadata: 367hcovk88 -->
-<!-- metadata: wv4f4dqfh1 -->
-<!-- metadata: t9r0esvcm6 -->
-<!-- metadata: 83nva3kwol -->
-<!-- metadata: i1zx1336dm -->
-<!-- metadata: mmyv9yvdf0 -->
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
