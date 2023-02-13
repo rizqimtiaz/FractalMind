@@ -3,6 +3,9 @@
 > A spatial AI knowledge synthesizer. Plant a seed concept on an infinite canvas and watch a living mind-map of ideas grow, branch, and synthesize itself.
 
 ![FractalMind](https://img.shields.io/badge/Next.js-14-000?logo=next.js) ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript) ![Tailwind](https://img.shields.io/badge/Tailwind-3-38bdf8?logo=tailwindcss) ![ReactFlow](https://img.shields.io/badge/React%20Flow-11-ff0072) ![AI SDK](https://img.shields.io/badge/Vercel%20AI%20SDK-4-black)
+
+---
+
 ## What it does
 
 - **Seed → Bloom.** Type a single idea and the AI cartographs its conceptual frontier into a hand-curated ring of 3–5 sub-topics, neatly arranged on an infinite canvas using radial layout.
@@ -68,15 +71,6 @@ store/
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
-<!-- metadata: t2d7zunrs4 -->
-<!-- metadata: 02j2jjahqn -->
-<!-- metadata: it8kfd7k7y -->
-<!-- metadata: w8p29nsave -->
-<!-- metadata: dbqhgeuirn -->
-<!-- metadata: 2gqu3jjwwf -->
-<!-- metadata: 2kbhxky1ch -->
-<!-- metadata: mf7vuak1wo -->
-<!-- metadata: pgm15n89qo -->
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
 | `Backspace / Delete` | Remove the selected node(s)     |
