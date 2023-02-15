@@ -34,6 +34,9 @@ npm install
 cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
 
+<!-- metadata: qambximssq -->
+<!-- metadata: n0bt6v3g1p -->
+<!-- metadata: p76hff43qz -->
 # 3. run
 npm run dev
 ```
@@ -72,9 +75,6 @@ store/
 | -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
 | `Shift + drag`       | Box-select multiple nodes       |
-| `⌘ / Ctrl + Enter`   | Synthesize the current selection|
-| `Backspace / Delete` | Remove the selected node(s)     |
-| `Double-click` node  | Expand it                       |
 
 ## Notes
 
