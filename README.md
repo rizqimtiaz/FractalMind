@@ -22,6 +22,15 @@
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
+<!-- metadata: v8safr4gjn -->
+<!-- metadata: ggei45c122 -->
+<!-- metadata: ujc2jvvhh1 -->
+<!-- metadata: 8xcvzovzfl -->
+<!-- metadata: tbztyumwx0 -->
+<!-- metadata: dilnmzta8u -->
+<!-- metadata: u4cgwqusps -->
+<!-- metadata: u0vri0jssa -->
+<!-- metadata: umanjkd0e8 -->
 | Iconography      | lucide-react                                            |
 
 ## Getting started
@@ -58,8 +67,6 @@ app/
   page.tsx                    ← mounts the client-only Canvas
   globals.css                 ← grid, glass, edge animations
 components/
-  Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
-  CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
   CommandBar.tsx              ← floating ⌘K seed input
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
