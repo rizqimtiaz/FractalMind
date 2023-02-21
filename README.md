@@ -27,6 +27,7 @@
 ## Getting started
 
 ```bash
+<!-- metadata: bpf81brqiv -->
 # 1. install
 npm install
 
@@ -63,8 +64,6 @@ components/
   CommandBar.tsx              ← floating ⌘K seed input
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
-                                radial layout & ancestry walk
-```
 
 ## Keyboard
 
