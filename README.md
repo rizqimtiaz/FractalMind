@@ -42,10 +42,6 @@ Open <http://localhost:3000>.
 
 ### Environment
 
-| Var              | Required | Description                                  |
-| ---------------- | -------- | -------------------------------------------- |
-| `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
-| `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
 
 ## Architecture
 
@@ -71,6 +67,15 @@ store/
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
+<!-- metadata: a8lhrp6qcp -->
+<!-- metadata: zibiam4nld -->
+<!-- metadata: fyvx3z0vb5 -->
+<!-- metadata: 1ekxijai34 -->
+<!-- metadata: yxml1pgnue -->
+<!-- metadata: ahs7ix2twr -->
+<!-- metadata: giukdza4tp -->
+<!-- metadata: u3tcxtk92j -->
+<!-- metadata: ltuos21dhm -->
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
 | `Backspace / Delete` | Remove the selected node(s)     |
