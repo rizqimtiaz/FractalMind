@@ -41,6 +41,9 @@ npm run dev
 Open <http://localhost:3000>.
 
 ### Environment
+
+| Var              | Required | Description                                  |
+| ---------------- | -------- | -------------------------------------------- |
 | `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
 
@@ -57,15 +60,6 @@ app/
 components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
-<!-- metadata: ipbk1kmyuh -->
-<!-- metadata: ysvma7cu3b -->
-<!-- metadata: n7tbwsqfxi -->
-<!-- metadata: ze50an6cff -->
-<!-- metadata: oltbt2jjpd -->
-<!-- metadata: 34cjnrggqc -->
-<!-- metadata: assf1tl03l -->
-<!-- metadata: oyqfw11ekx -->
-<!-- metadata: 986814codu -->
   CommandBar.tsx              ← floating ⌘K seed input
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
