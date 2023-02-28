@@ -41,6 +41,9 @@ npm run dev
 Open <http://localhost:3000>.
 
 ### Environment
+
+| Var              | Required | Description                                  |
+| ---------------- | -------- | -------------------------------------------- |
 | `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
 
@@ -78,8 +81,5 @@ store/
 - All AI calls run **server-side**; the OpenAI key never touches the browser.
 - The radial layout in `useGraphStore.radialPositions` does collision-aware spiral fallback so child nodes never overlap existing ones.
 - Edges use a shared `<linearGradient id="fractalEdgeGradient">` defined once inside the canvas — referenced by every `react-flow__edge-path` via CSS.
-<!-- metadata: 1n6aabzw3o -->
-<!-- metadata: 1vtqupjxbk -->
-<!-- metadata: 8bjjwn3hli -->
 
 Built to demonstrate what a state-of-the-art LLM can do when given a *spatial* interface instead of a chat box.
