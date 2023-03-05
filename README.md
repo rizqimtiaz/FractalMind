@@ -22,12 +22,12 @@
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
-| Iconography      | lucide-react                                            |
-
-## Getting started
-
 ```bash
 # 1. install
+<!-- metadata: whoxcvms7x -->
+<!-- metadata: kferal35cp -->
+<!-- metadata: m215729865 -->
+<!-- metadata: 8j8pohxizp -->
 npm install
 
 # 2. add your OpenAI key
