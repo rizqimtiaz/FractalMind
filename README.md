@@ -53,6 +53,10 @@ Open <http://localhost:3000>.
 app/
   api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
+<!-- metadata: sy17rq1iba -->
+<!-- metadata: cf42v74fmb -->
+<!-- metadata: 7azt2ar040 -->
+<!-- metadata: 7c8mgmycjq -->
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
   layout.tsx                  ← Inter + Space Grotesk, dark theme
   page.tsx                    ← mounts the client-only Canvas
@@ -62,9 +66,6 @@ components/
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
   CommandBar.tsx              ← floating ⌘K seed input
 store/
-  useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
-                                radial layout & ancestry walk
-```
 
 ## Keyboard
 
