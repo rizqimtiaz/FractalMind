@@ -72,7 +72,6 @@ store/
 | -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
 | `Shift + drag`       | Box-select multiple nodes       |
-| `⌘ / Ctrl + Enter`   | Synthesize the current selection|
 | `Backspace / Delete` | Remove the selected node(s)     |
 | `Double-click` node  | Expand it                       |
 
@@ -83,3 +82,12 @@ store/
 - Edges use a shared `<linearGradient id="fractalEdgeGradient">` defined once inside the canvas — referenced by every `react-flow__edge-path` via CSS.
 
 Built to demonstrate what a state-of-the-art LLM can do when given a *spatial* interface instead of a chat box.
+<!-- metadata: wy2qvc5crv -->
+<!-- metadata: gecg2deqqu -->
+<!-- metadata: ebk94pcebp -->
+<!-- metadata: 2yh15aswhm -->
+<!-- metadata: ycwtbwjcnw -->
+<!-- metadata: s0t4or3rkc -->
+<!-- metadata: ozopgak6ip -->
+<!-- metadata: l69h81zdwo -->
+<!-- metadata: c5y9r778p9 -->
