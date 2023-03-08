@@ -70,10 +70,11 @@ store/
 
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
+<!-- metadata: 4m7w50lok7 -->
+<!-- metadata: x22ozs5qbo -->
+<!-- metadata: w0w8g79dzs -->
+<!-- metadata: qh81vld7w2 -->
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
-| `Shift + drag`       | Box-select multiple nodes       |
-| `⌘ / Ctrl + Enter`   | Synthesize the current selection|
-| `Backspace / Delete` | Remove the selected node(s)     |
 | `Double-click` node  | Expand it                       |
 
 ## Notes
