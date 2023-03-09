@@ -28,8 +28,6 @@
 
 ```bash
 # 1. install
-npm install
-
 # 2. add your OpenAI key
 cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
@@ -50,6 +48,15 @@ Open <http://localhost:3000>.
 ## Architecture
 
 ```
+<!-- metadata: rxdvbbj4p0 -->
+<!-- metadata: 5y4v6i6cyo -->
+<!-- metadata: 6gfu82j6vz -->
+<!-- metadata: knf52em18n -->
+<!-- metadata: 3gz3saz1vv -->
+<!-- metadata: 7ge626dxbt -->
+<!-- metadata: ifnm4jnu1x -->
+<!-- metadata: rojynoihc2 -->
+<!-- metadata: dqqvv3kf6i -->
 app/
   api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
