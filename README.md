@@ -53,11 +53,6 @@ Open <http://localhost:3000>.
 app/
   api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
-<!-- metadata: mj2r2kl7y9 -->
-<!-- metadata: l0719nos2u -->
-<!-- metadata: um3c9cpezv -->
-<!-- metadata: zjei5h19pk -->
-<!-- metadata: jazmbixism -->
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
   layout.tsx                  ← Inter + Space Grotesk, dark theme
   page.tsx                    ← mounts the client-only Canvas
@@ -79,6 +74,9 @@ store/
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
 | `Backspace / Delete` | Remove the selected node(s)     |
+| `Double-click` node  | Expand it                       |
+
+## Notes
 
 - All AI calls run **server-side**; the OpenAI key never touches the browser.
 - The radial layout in `useGraphStore.radialPositions` does collision-aware spiral fallback so child nodes never overlap existing ones.
