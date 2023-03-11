@@ -10,6 +10,16 @@
 
 - **Seed → Bloom.** Type a single idea and the AI cartographs its conceptual frontier into a hand-curated ring of 3–5 sub-topics, neatly arranged on an infinite canvas using radial layout.
 - **Expand any node** (double-click or the *Expand* button) and the AI generates deeper, more concrete children — informed by the node's full ancestry so it never repeats itself.
+<!-- metadata: jdcdn7ah5c -->
+<!-- metadata: p3rqxl8r2t -->
+<!-- metadata: ul0s4g9z0y -->
+<!-- metadata: gh0uolzhpa -->
+<!-- metadata: 9k6bzarv36 -->
+<!-- metadata: j50vwq41yj -->
+<!-- metadata: 7b1eqryhcr -->
+<!-- metadata: caivmyp8l0 -->
+<!-- metadata: 4whoruhhaf -->
+<!-- metadata: 6vf7vzkaa4 -->
 - **Synthesize** any 2+ selected nodes (`Shift + drag` to select, then `⌘ Enter`) and the AI invents a brand-new node naming the *latent intersection* between them.
 - Strictly-typed structured AI output via the **Vercel AI SDK** + **Zod** schemas — no JSON parsing, no hallucinated shapes.
 
@@ -32,8 +42,6 @@ npm install
 
 # 2. add your OpenAI key
 cp .env.example .env.local
-# then edit .env.local and paste your sk-... key
-
 # 3. run
 npm run dev
 ```
