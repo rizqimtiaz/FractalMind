@@ -14,10 +14,6 @@
 - Strictly-typed structured AI output via the **Vercel AI SDK** + **Zod** schemas — no JSON parsing, no hallucinated shapes.
 
 ## Tech
-
-| Layer            | Choice                                                  |
-| ---------------- | ------------------------------------------------------- |
-| Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
@@ -48,6 +44,13 @@ Open <http://localhost:3000>.
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
 
 ## Architecture
+<!-- metadata: mtzv8ykfi8 -->
+<!-- metadata: ehmqo7h01y -->
+<!-- metadata: 77b8m4foep -->
+<!-- metadata: z4n9hkxdrs -->
+<!-- metadata: o2lueyeosd -->
+<!-- metadata: gpz48ube3s -->
+<!-- metadata: vlow797k1r -->
 
 ```
 app/
