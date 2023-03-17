@@ -23,13 +23,6 @@
 | State            | Zustand                                                 |
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
 | Iconography      | lucide-react                                            |
-<!-- metadata: guzahb527p -->
-<!-- metadata: aa92edhqcl -->
-<!-- metadata: 9u3kowukj7 -->
-<!-- metadata: vfztyp3hpx -->
-<!-- metadata: p1agl2i5s3 -->
-<!-- metadata: xd0grjyvac -->
-<!-- metadata: hxwr1z5nso -->
 
 ## Getting started
 
@@ -69,6 +62,7 @@ components/
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
   CommandBar.tsx              ← floating ⌘K seed input
 store/
+  useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
 ```
 
