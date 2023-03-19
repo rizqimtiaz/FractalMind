@@ -31,6 +31,11 @@
 npm install
 
 # 2. add your OpenAI key
+<!-- metadata: gqzr871u54 -->
+<!-- metadata: y1ujv25slj -->
+<!-- metadata: 6k3l1f9bjg -->
+<!-- metadata: 6p6kxdx0vz -->
+<!-- metadata: g1iow3d4ex -->
 cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
 
@@ -73,8 +78,6 @@ store/
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
-| `Backspace / Delete` | Remove the selected node(s)     |
-| `Double-click` node  | Expand it                       |
 
 ## Notes
 
