@@ -41,9 +41,6 @@ npm run dev
 Open <http://localhost:3000>.
 
 ### Environment
-
-| Var              | Required | Description                                  |
-| ---------------- | -------- | -------------------------------------------- |
 | `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
 
@@ -83,3 +80,6 @@ store/
 - Edges use a shared `<linearGradient id="fractalEdgeGradient">` defined once inside the canvas — referenced by every `react-flow__edge-path` via CSS.
 
 Built to demonstrate what a state-of-the-art LLM can do when given a *spatial* interface instead of a chat box.
+<!-- metadata: ylue3sty84 -->
+<!-- metadata: qaeismqq8a -->
+<!-- metadata: e76b6is7w3 -->
