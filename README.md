@@ -51,7 +51,6 @@ Open <http://localhost:3000>.
 
 ```
 app/
-  api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
   layout.tsx                  ← Inter + Space Grotesk, dark theme
@@ -82,4 +81,7 @@ store/
 - The radial layout in `useGraphStore.radialPositions` does collision-aware spiral fallback so child nodes never overlap existing ones.
 - Edges use a shared `<linearGradient id="fractalEdgeGradient">` defined once inside the canvas — referenced by every `react-flow__edge-path` via CSS.
 
+<!-- metadata: efi0rua6hc -->
+<!-- metadata: 1zcithzv68 -->
+<!-- metadata: qcfxhimm8w -->
 Built to demonstrate what a state-of-the-art LLM can do when given a *spatial* interface instead of a chat box.
