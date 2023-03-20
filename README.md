@@ -27,6 +27,11 @@
 ## Getting started
 
 ```bash
+<!-- metadata: qt3e568fk1 -->
+<!-- metadata: muro57yw07 -->
+<!-- metadata: 49lxvuky92 -->
+<!-- metadata: al8cgtd1ue -->
+<!-- metadata: oxkyfmahu6 -->
 # 1. install
 npm install
 
@@ -38,7 +43,6 @@ cp .env.example .env.local
 npm run dev
 ```
 
-Open <http://localhost:3000>.
 
 ### Environment
 
