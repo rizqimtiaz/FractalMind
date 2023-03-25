@@ -22,6 +22,10 @@
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
+<!-- metadata: utcu7r1vha -->
+<!-- metadata: d1x14p7roy -->
+<!-- metadata: libuwzkz0h -->
+<!-- metadata: p1zkgpym37 -->
 | Iconography      | lucide-react                                            |
 
 ## Getting started
@@ -40,7 +44,6 @@ npm run dev
 
 Open <http://localhost:3000>.
 
-### Environment
 
 | Var              | Required | Description                                  |
 | ---------------- | -------- | -------------------------------------------- |
