@@ -34,6 +34,13 @@ npm install
 cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
 
+<!-- metadata: 4z3sq99lc1 -->
+<!-- metadata: 3ziy8w7yvu -->
+<!-- metadata: yeq910kbuf -->
+<!-- metadata: pzjzkrv94c -->
+<!-- metadata: 1s4qxt1eia -->
+<!-- metadata: aw03qm89gx -->
+<!-- metadata: 36ag1vta73 -->
 # 3. run
 npm run dev
 ```
@@ -43,10 +50,6 @@ Open <http://localhost:3000>.
 ### Environment
 
 | Var              | Required | Description                                  |
-| ---------------- | -------- | -------------------------------------------- |
-| `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
-| `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
-
 ## Architecture
 
 ```
