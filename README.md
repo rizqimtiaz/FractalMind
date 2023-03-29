@@ -45,6 +45,12 @@ Open <http://localhost:3000>.
 | Var              | Required | Description                                  |
 | ---------------- | -------- | -------------------------------------------- |
 | `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
+<!-- metadata: 0ya05kg1ro -->
+<!-- metadata: j650i3asad -->
+<!-- metadata: r5l6qkvuwd -->
+<!-- metadata: yilqslxuqe -->
+<!-- metadata: wgc2lub7mq -->
+<!-- metadata: r60j2d6i3r -->
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
 
 ## Architecture
@@ -74,9 +80,6 @@ store/
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
 | `Backspace / Delete` | Remove the selected node(s)     |
-| `Double-click` node  | Expand it                       |
-
-## Notes
 
 - All AI calls run **server-side**; the OpenAI key never touches the browser.
 - The radial layout in `useGraphStore.radialPositions` does collision-aware spiral fallback so child nodes never overlap existing ones.
