@@ -1,12 +1,3 @@
-<!-- metadata: 638big4jz6 -->
-<!-- metadata: jg8gg6vtff -->
-<!-- metadata: 5hfctnwzvw -->
-<!-- metadata: 16zni60svr -->
-<!-- metadata: 6bscdsdoyf -->
-<!-- metadata: z3a6dz659m -->
-<!-- metadata: cuo2hknjh8 -->
-<!-- metadata: w42qm6vvzj -->
-<!-- metadata: sesbz8x4gg -->
 # FractalMind
 
 > A spatial AI knowledge synthesizer. Plant a seed concept on an infinite canvas and watch a living mind-map of ideas grow, branch, and synthesize itself.
@@ -21,6 +12,8 @@
 - **Expand any node** (double-click or the *Expand* button) and the AI generates deeper, more concrete children — informed by the node's full ancestry so it never repeats itself.
 - **Synthesize** any 2+ selected nodes (`Shift + drag` to select, then `⌘ Enter`) and the AI invents a brand-new node naming the *latent intersection* between them.
 - Strictly-typed structured AI output via the **Vercel AI SDK** + **Zod** schemas — no JSON parsing, no hallucinated shapes.
+
+## Tech
 
 | Layer            | Choice                                                  |
 | ---------------- | ------------------------------------------------------- |
