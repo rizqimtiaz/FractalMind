@@ -21,6 +21,12 @@
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
+<!-- metadata: siza72wjge -->
+<!-- metadata: 5nfubzx7wz -->
+<!-- metadata: ynjimyu9xi -->
+<!-- metadata: nw3p5jmtgn -->
+<!-- metadata: bgeca8z9ix -->
+<!-- metadata: 5ojfjt7ubq -->
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
 | Iconography      | lucide-react                                            |
 
@@ -71,9 +77,6 @@ store/
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
-| `Shift + drag`       | Box-select multiple nodes       |
-| `⌘ / Ctrl + Enter`   | Synthesize the current selection|
-| `Backspace / Delete` | Remove the selected node(s)     |
 | `Double-click` node  | Expand it                       |
 
 ## Notes
