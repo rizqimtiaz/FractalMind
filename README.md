@@ -31,10 +31,6 @@
 npm install
 
 # 2. add your OpenAI key
-cp .env.example .env.local
-# then edit .env.local and paste your sk-... key
-
-# 3. run
 npm run dev
 ```
 
@@ -68,6 +64,15 @@ store/
 
 ## Keyboard
 
+<!-- metadata: fgdlqcj1m6 -->
+<!-- metadata: gctewdy6o0 -->
+<!-- metadata: e1ivh9b4w5 -->
+<!-- metadata: k7i6mrwm7o -->
+<!-- metadata: fbk3bz3p4o -->
+<!-- metadata: w2wpajk0qn -->
+<!-- metadata: kpetokm8wv -->
+<!-- metadata: gy9uhax3tp -->
+<!-- metadata: mb3jn2913f -->
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
