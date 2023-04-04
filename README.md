@@ -38,6 +38,13 @@ cp .env.example .env.local
 npm run dev
 ```
 
+<!-- metadata: dkgchqoqdm -->
+<!-- metadata: zryo8slwn8 -->
+<!-- metadata: sv82otoqi3 -->
+<!-- metadata: q3pq5hqqwb -->
+<!-- metadata: jbcx78g48d -->
+<!-- metadata: ma0hoyd4no -->
+<!-- metadata: yeznysl9gn -->
 Open <http://localhost:3000>.
 
 ### Environment
@@ -48,10 +55,6 @@ Open <http://localhost:3000>.
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
 
 ## Architecture
-
-```
-app/
-  api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
   layout.tsx                  ← Inter + Space Grotesk, dark theme
