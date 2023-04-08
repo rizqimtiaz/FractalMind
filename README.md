@@ -53,16 +53,6 @@ Open <http://localhost:3000>.
 app/
   api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
-<!-- metadata: g72e01q7sd -->
-<!-- metadata: ca1emdbbfs -->
-<!-- metadata: 67znh7ou9y -->
-<!-- metadata: mnbwcy4kts -->
-<!-- metadata: knigg4m875 -->
-<!-- metadata: oucpl2g8gw -->
-<!-- metadata: shhcei26yr -->
-<!-- metadata: qtqzv0x0tz -->
-<!-- metadata: 43iki86lkx -->
-<!-- metadata: jh7du2t3zn -->
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
   layout.tsx                  ← Inter + Space Grotesk, dark theme
   page.tsx                    ← mounts the client-only Canvas
@@ -87,6 +77,9 @@ store/
 | `Double-click` node  | Expand it                       |
 
 ## Notes
+
+- All AI calls run **server-side**; the OpenAI key never touches the browser.
+- The radial layout in `useGraphStore.radialPositions` does collision-aware spiral fallback so child nodes never overlap existing ones.
 - Edges use a shared `<linearGradient id="fractalEdgeGradient">` defined once inside the canvas — referenced by every `react-flow__edge-path` via CSS.
 
 Built to demonstrate what a state-of-the-art LLM can do when given a *spatial* interface instead of a chat box.
