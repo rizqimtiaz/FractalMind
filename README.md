@@ -14,8 +14,6 @@
 - Strictly-typed structured AI output via the **Vercel AI SDK** + **Zod** schemas — no JSON parsing, no hallucinated shapes.
 
 ## Tech
-
-| Layer            | Choice                                                  |
 | ---------------- | ------------------------------------------------------- |
 | Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
@@ -70,6 +68,8 @@ store/
 
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
+<!-- metadata: bu49pcr20a -->
+<!-- metadata: 6wxhvvf9gv -->
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
