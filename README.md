@@ -1,7 +1,6 @@
 # FractalMind
 
 > A spatial AI knowledge synthesizer. Plant a seed concept on an infinite canvas and watch a living mind-map of ideas grow, branch, and synthesize itself.
-
 ![FractalMind](https://img.shields.io/badge/Next.js-14-000?logo=next.js) ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript) ![Tailwind](https://img.shields.io/badge/Tailwind-3-38bdf8?logo=tailwindcss) ![ReactFlow](https://img.shields.io/badge/React%20Flow-11-ff0072) ![AI SDK](https://img.shields.io/badge/Vercel%20AI%20SDK-4-black)
 
 ---
@@ -54,6 +53,13 @@ app/
   api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
+<!-- metadata: 3d04iybc1l -->
+<!-- metadata: xiukxqym8o -->
+<!-- metadata: fslomcizz9 -->
+<!-- metadata: vqgzbx3ujj -->
+<!-- metadata: mueddz7o5j -->
+<!-- metadata: zg1xn6i1gv -->
+<!-- metadata: g190gnmj3w -->
   layout.tsx                  ← Inter + Space Grotesk, dark theme
   page.tsx                    ← mounts the client-only Canvas
   globals.css                 ← grid, glass, edge animations
