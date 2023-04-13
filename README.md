@@ -13,7 +13,6 @@
 - **Synthesize** any 2+ selected nodes (`Shift + drag` to select, then `⌘ Enter`) and the AI invents a brand-new node naming the *latent intersection* between them.
 - Strictly-typed structured AI output via the **Vercel AI SDK** + **Zod** schemas — no JSON parsing, no hallucinated shapes.
 
-## Tech
 
 | Layer            | Choice                                                  |
 | ---------------- | ------------------------------------------------------- |
@@ -52,6 +51,10 @@ Open <http://localhost:3000>.
 ```
 app/
   api/
+<!-- metadata: lr8r2lmcrc -->
+<!-- metadata: w05eaic9jq -->
+<!-- metadata: v5ogof6vbp -->
+<!-- metadata: 7r953k0e2y -->
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
   layout.tsx                  ← Inter + Space Grotesk, dark theme
