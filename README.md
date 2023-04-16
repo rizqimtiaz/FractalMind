@@ -14,14 +14,20 @@
 - Strictly-typed structured AI output via the **Vercel AI SDK** + **Zod** schemas — no JSON parsing, no hallucinated shapes.
 
 ## Tech
+<!-- metadata: np84554c9p -->
+<!-- metadata: ptwi002suj -->
+<!-- metadata: fml50qn284 -->
+<!-- metadata: phppucbb06 -->
+<!-- metadata: 88hkofpid6 -->
+<!-- metadata: qvd4dvo8g4 -->
+<!-- metadata: ak1cdos5j7 -->
+<!-- metadata: hkeb2vqkvc -->
+<!-- metadata: q2ut4k5zj3 -->
+<!-- metadata: i8y0cdgubi -->
 
 | Layer            | Choice                                                  |
 | ---------------- | ------------------------------------------------------- |
 | Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
-| Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
-| AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
-| State            | Zustand                                                 |
-| Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
 | Iconography      | lucide-react                                            |
 
 ## Getting started
