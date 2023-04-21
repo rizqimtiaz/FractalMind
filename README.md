@@ -30,10 +30,6 @@
 # 1. install
 npm install
 
-# 2. add your OpenAI key
-cp .env.example .env.local
-# then edit .env.local and paste your sk-... key
-
 # 3. run
 npm run dev
 ```
@@ -43,6 +39,14 @@ Open <http://localhost:3000>.
 ### Environment
 
 | Var              | Required | Description                                  |
+<!-- metadata: g335a9qzap -->
+<!-- metadata: 2dl312hx3s -->
+<!-- metadata: a8pa6460m4 -->
+<!-- metadata: swge4jo4qc -->
+<!-- metadata: lkkhc0bhcj -->
+<!-- metadata: 79wlcaquh9 -->
+<!-- metadata: w2zsgejfey -->
+<!-- metadata: 30v30ddk2u -->
 | ---------------- | -------- | -------------------------------------------- |
 | `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
