@@ -28,8 +28,6 @@
 
 ```bash
 # 1. install
-<!-- metadata: sry5dtrgpz -->
-<!-- metadata: jwo9w4dz8e -->
 npm install
 
 # 2. add your OpenAI key
@@ -53,6 +51,10 @@ Open <http://localhost:3000>.
 
 ```
 app/
+  api/
+    generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
+    synthesize/route.ts       ← AI: lateral-thinking concept fusion
+  layout.tsx                  ← Inter + Space Grotesk, dark theme
   page.tsx                    ← mounts the client-only Canvas
   globals.css                 ← grid, glass, edge animations
 components/
