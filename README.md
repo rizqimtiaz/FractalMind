@@ -7,6 +7,8 @@
 ---
 
 ## What it does
+
+- **Seed → Bloom.** Type a single idea and the AI cartographs its conceptual frontier into a hand-curated ring of 3–5 sub-topics, neatly arranged on an infinite canvas using radial layout.
 - **Expand any node** (double-click or the *Expand* button) and the AI generates deeper, more concrete children — informed by the node's full ancestry so it never repeats itself.
 - **Synthesize** any 2+ selected nodes (`Shift + drag` to select, then `⌘ Enter`) and the AI invents a brand-new node naming the *latent intersection* between them.
 - Strictly-typed structured AI output via the **Vercel AI SDK** + **Zod** schemas — no JSON parsing, no hallucinated shapes.
@@ -40,12 +42,6 @@ Open <http://localhost:3000>.
 
 ### Environment
 
-<!-- metadata: 9gzfw1g796 -->
-<!-- metadata: 43wz80kw2s -->
-<!-- metadata: p9yiw45v22 -->
-<!-- metadata: 34fbyw42va -->
-<!-- metadata: wc12seka4s -->
-<!-- metadata: o8t0jq7y1t -->
 | Var              | Required | Description                                  |
 | ---------------- | -------- | -------------------------------------------- |
 | `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
