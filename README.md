@@ -74,19 +74,12 @@ store/
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
 | `Backspace / Delete` | Remove the selected node(s)     |
-<!-- metadata: u69dsenafe -->
-<!-- metadata: da6qbidr2n -->
-<!-- metadata: mhie4px3dj -->
-<!-- metadata: cpy6jr8l1m -->
-<!-- metadata: yz04bg3hq9 -->
-<!-- metadata: lmqwi6sm7h -->
-<!-- metadata: rmhgn3l0do -->
-<!-- metadata: ifx2433388 -->
-<!-- metadata: 10vumefhyh -->
-<!-- metadata: 2mqkdm8k1v -->
 | `Double-click` node  | Expand it                       |
 
 ## Notes
+
+- All AI calls run **server-side**; the OpenAI key never touches the browser.
+- The radial layout in `useGraphStore.radialPositions` does collision-aware spiral fallback so child nodes never overlap existing ones.
 - Edges use a shared `<linearGradient id="fractalEdgeGradient">` defined once inside the canvas — referenced by every `react-flow__edge-path` via CSS.
 
 Built to demonstrate what a state-of-the-art LLM can do when given a *spatial* interface instead of a chat box.
