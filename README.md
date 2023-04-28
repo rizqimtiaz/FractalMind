@@ -1,7 +1,3 @@
-<!-- metadata: 26rgyuoqh3 -->
-<!-- metadata: byu354x5qg -->
-<!-- metadata: 68jkuqow8g -->
-<!-- metadata: ml9yyyz6j6 -->
 # FractalMind
 
 > A spatial AI knowledge synthesizer. Plant a seed concept on an infinite canvas and watch a living mind-map of ideas grow, branch, and synthesize itself.
@@ -41,6 +37,9 @@ cp .env.example .env.local
 # 3. run
 npm run dev
 ```
+
+Open <http://localhost:3000>.
+
 ### Environment
 
 | Var              | Required | Description                                  |
