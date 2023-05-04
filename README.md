@@ -32,11 +32,11 @@ npm install
 
 # 2. add your OpenAI key
 cp .env.example .env.local
+<!-- metadata: es4knkghgu -->
+<!-- metadata: lk8nkds3r3 -->
 # then edit .env.local and paste your sk-... key
 
 # 3. run
-npm run dev
-```
 
 Open <http://localhost:3000>.
 
