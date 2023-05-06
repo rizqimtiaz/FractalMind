@@ -21,6 +21,9 @@
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
+| Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
+| Iconography      | lucide-react                                            |
+
 ## Getting started
 
 ```bash
@@ -31,14 +34,6 @@ npm install
 cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
 
-<!-- metadata: eqjevrmjtv -->
-<!-- metadata: piqy8w9cs0 -->
-<!-- metadata: wa2vz8enb9 -->
-<!-- metadata: su2n0w5rm5 -->
-<!-- metadata: 8dicfvqsjp -->
-<!-- metadata: tjdptafzkw -->
-<!-- metadata: q4lkii25zj -->
-<!-- metadata: izot0t7p4o -->
 # 3. run
 npm run dev
 ```
