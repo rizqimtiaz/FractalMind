@@ -41,12 +41,14 @@ npm run dev
 Open <http://localhost:3000>.
 
 ### Environment
+
+| Var              | Required | Description                                  |
+| ---------------- | -------- | -------------------------------------------- |
+| `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
 
 ## Architecture
 
-<!-- metadata: i49mby4w37 -->
-<!-- metadata: sp3pi3n1rc -->
 ```
 app/
   api/
