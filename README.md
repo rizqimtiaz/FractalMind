@@ -28,6 +28,15 @@
 
 ```bash
 # 1. install
+<!-- metadata: royqrqki00 -->
+<!-- metadata: dfrjvg8qcn -->
+<!-- metadata: ym456k57qc -->
+<!-- metadata: 9sjodbvwyt -->
+<!-- metadata: gx7pjjjfx9 -->
+<!-- metadata: o8rhw1d7nh -->
+<!-- metadata: fsic63m4gp -->
+<!-- metadata: 8z2rp20p0n -->
+<!-- metadata: sz4zmbzk81 -->
 npm install
 
 # 2. add your OpenAI key
@@ -57,7 +66,6 @@ app/
   layout.tsx                  ← Inter + Space Grotesk, dark theme
   page.tsx                    ← mounts the client-only Canvas
   globals.css                 ← grid, glass, edge animations
-components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
   CommandBar.tsx              ← floating ⌘K seed input
