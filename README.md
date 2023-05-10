@@ -16,6 +16,7 @@
 ## Tech
 
 | Layer            | Choice                                                  |
+| ---------------- | ------------------------------------------------------- |
 | Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
@@ -37,8 +38,6 @@ cp .env.example .env.local
 npm run dev
 ```
 
-<!-- metadata: vdlbz9imds -->
-<!-- metadata: nroxeb0i42 -->
 Open <http://localhost:3000>.
 
 ### Environment
