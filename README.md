@@ -38,10 +38,6 @@ cp .env.example .env.local
 npm run dev
 ```
 
-Open <http://localhost:3000>.
-
-### Environment
-
 | Var              | Required | Description                                  |
 | ---------------- | -------- | -------------------------------------------- |
 | `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
@@ -55,6 +51,16 @@ app/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
   layout.tsx                  ← Inter + Space Grotesk, dark theme
+<!-- metadata: my4xajy87l -->
+<!-- metadata: 71yaohbcd1 -->
+<!-- metadata: zlunsrsmyy -->
+<!-- metadata: g75zdz7z0j -->
+<!-- metadata: rr10qd2wzq -->
+<!-- metadata: 4nz1nyx986 -->
+<!-- metadata: 61xwytly1z -->
+<!-- metadata: s7ml32pz8b -->
+<!-- metadata: ihev76vcgt -->
+<!-- metadata: 8hh33bn6ug -->
   page.tsx                    ← mounts the client-only Canvas
   globals.css                 ← grid, glass, edge animations
 components/
