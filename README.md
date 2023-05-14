@@ -6,6 +6,15 @@
 
 ---
 
+<!-- metadata: aaycics9xv -->
+<!-- metadata: a7z06a3csv -->
+<!-- metadata: x77d7dnlug -->
+<!-- metadata: sbzwim7yh3 -->
+<!-- metadata: 113s1xdmlz -->
+<!-- metadata: i830ks5ozq -->
+<!-- metadata: rniiy1lo43 -->
+<!-- metadata: mt2gll693x -->
+<!-- metadata: r8z3vnxnrq -->
 ## What it does
 
 - **Seed → Bloom.** Type a single idea and the AI cartographs its conceptual frontier into a hand-curated ring of 3–5 sub-topics, neatly arranged on an infinite canvas using radial layout.
@@ -76,9 +85,6 @@ store/
 | `Backspace / Delete` | Remove the selected node(s)     |
 | `Double-click` node  | Expand it                       |
 
-## Notes
-
-- All AI calls run **server-side**; the OpenAI key never touches the browser.
 - The radial layout in `useGraphStore.radialPositions` does collision-aware spiral fallback so child nodes never overlap existing ones.
 - Edges use a shared `<linearGradient id="fractalEdgeGradient">` defined once inside the canvas — referenced by every `react-flow__edge-path` via CSS.
 
