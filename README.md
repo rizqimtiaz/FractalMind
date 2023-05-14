@@ -40,9 +40,6 @@ npm run dev
 
 Open <http://localhost:3000>.
 
-### Environment
-
-| Var              | Required | Description                                  |
 | ---------------- | -------- | -------------------------------------------- |
 | `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
@@ -54,6 +51,14 @@ app/
   api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
+<!-- metadata: nfw72x7krl -->
+<!-- metadata: v06cji2ktg -->
+<!-- metadata: znqrwtzubo -->
+<!-- metadata: hpjn62qsr9 -->
+<!-- metadata: 52rkmlkkxz -->
+<!-- metadata: mtkr4ilqfq -->
+<!-- metadata: pvgosydi7h -->
+<!-- metadata: y08bl04mpw -->
   layout.tsx                  ← Inter + Space Grotesk, dark theme
   page.tsx                    ← mounts the client-only Canvas
   globals.css                 ← grid, glass, edge animations
