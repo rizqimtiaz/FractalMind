@@ -62,12 +62,11 @@ components/
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
   CommandBar.tsx              ← floating ⌘K seed input
 store/
+  useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
+                                radial layout & ancestry walk
+```
+
 ## Keyboard
-<!-- metadata: b5twr2jgax -->
-<!-- metadata: 9fri8xo6fs -->
-<!-- metadata: x2y4ylbzz7 -->
-<!-- metadata: zahkl3h983 -->
-<!-- metadata: zf3sjutc7b -->
 
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
