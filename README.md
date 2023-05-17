@@ -13,8 +13,6 @@
 - **Synthesize** any 2+ selected nodes (`Shift + drag` to select, then `⌘ Enter`) and the AI invents a brand-new node naming the *latent intersection* between them.
 - Strictly-typed structured AI output via the **Vercel AI SDK** + **Zod** schemas — no JSON parsing, no hallucinated shapes.
 
-<!-- metadata: 5o6ut5anm9 -->
-<!-- metadata: 2g2qfc2pt5 -->
 ## Tech
 
 | Layer            | Choice                                                  |
@@ -61,6 +59,9 @@ app/
   globals.css                 ← grid, glass, edge animations
 components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
+  CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
+  CommandBar.tsx              ← floating ⌘K seed input
+store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
 ```
