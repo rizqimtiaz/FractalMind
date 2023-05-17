@@ -26,6 +26,10 @@
 
 ## Getting started
 
+```bash
+# 1. install
+npm install
+
 # 2. add your OpenAI key
 cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
@@ -67,15 +71,6 @@ store/
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
-<!-- metadata: l2fuhv55qg -->
-<!-- metadata: pzr6z3xchl -->
-<!-- metadata: ju6eu215xq -->
-<!-- metadata: k86aqv9qg1 -->
-<!-- metadata: 1sns690c45 -->
-<!-- metadata: ptrow62m5v -->
-<!-- metadata: 0ao5zcckf8 -->
-<!-- metadata: w6ye063iya -->
-<!-- metadata: b0xmkk8xuj -->
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
 | `Backspace / Delete` | Remove the selected node(s)     |
