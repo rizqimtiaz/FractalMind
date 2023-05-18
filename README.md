@@ -17,6 +17,15 @@
 
 | Layer            | Choice                                                  |
 | ---------------- | ------------------------------------------------------- |
+<!-- metadata: 8dthyljzr0 -->
+<!-- metadata: y2acdwywhe -->
+<!-- metadata: jjekw8c3xo -->
+<!-- metadata: 8rjjanlogb -->
+<!-- metadata: q6xc2h9j91 -->
+<!-- metadata: e4s635ox89 -->
+<!-- metadata: os6umqvuxx -->
+<!-- metadata: b59h99zrd7 -->
+<!-- metadata: aqheejvyga -->
 | Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
@@ -36,10 +45,6 @@ cp .env.example .env.local
 
 # 3. run
 npm run dev
-```
-
-Open <http://localhost:3000>.
-
 ### Environment
 
 | Var              | Required | Description                                  |
