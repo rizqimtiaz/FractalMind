@@ -7,10 +7,6 @@
 ---
 
 ## What it does
-
-- **Seed → Bloom.** Type a single idea and the AI cartographs its conceptual frontier into a hand-curated ring of 3–5 sub-topics, neatly arranged on an infinite canvas using radial layout.
-- **Expand any node** (double-click or the *Expand* button) and the AI generates deeper, more concrete children — informed by the node's full ancestry so it never repeats itself.
-- **Synthesize** any 2+ selected nodes (`Shift + drag` to select, then `⌘ Enter`) and the AI invents a brand-new node naming the *latent intersection* between them.
 - Strictly-typed structured AI output via the **Vercel AI SDK** + **Zod** schemas — no JSON parsing, no hallucinated shapes.
 
 ## Tech
@@ -58,6 +54,15 @@ app/
   page.tsx                    ← mounts the client-only Canvas
   globals.css                 ← grid, glass, edge animations
 components/
+<!-- metadata: pjdq0u2imo -->
+<!-- metadata: abzucg33jt -->
+<!-- metadata: eoocsikwcr -->
+<!-- metadata: anwjopvawv -->
+<!-- metadata: 5h8zukjg91 -->
+<!-- metadata: xgsvzoenka -->
+<!-- metadata: 47ftpsvax7 -->
+<!-- metadata: o9mr1qqohc -->
+<!-- metadata: 07h371yfs0 -->
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
   CommandBar.tsx              ← floating ⌘K seed input
