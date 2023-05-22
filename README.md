@@ -22,6 +22,9 @@
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
+| Iconography      | lucide-react                                            |
+
+## Getting started
 
 ```bash
 # 1. install
@@ -65,7 +68,6 @@ store/
 
 ## Keyboard
 
-<!-- metadata: wfjqw5xe4z -->
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
