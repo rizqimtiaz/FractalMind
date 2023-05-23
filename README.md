@@ -12,6 +12,11 @@
 - **Expand any node** (double-click or the *Expand* button) and the AI generates deeper, more concrete children — informed by the node's full ancestry so it never repeats itself.
 - **Synthesize** any 2+ selected nodes (`Shift + drag` to select, then `⌘ Enter`) and the AI invents a brand-new node naming the *latent intersection* between them.
 - Strictly-typed structured AI output via the **Vercel AI SDK** + **Zod** schemas — no JSON parsing, no hallucinated shapes.
+<!-- metadata: lqffa7b7me -->
+<!-- metadata: 66lhqbygvy -->
+<!-- metadata: 3b8epy5x6c -->
+<!-- metadata: vpeohcgv4c -->
+<!-- metadata: b938z1ubyi -->
 
 ## Tech
 
@@ -28,8 +33,6 @@
 
 ```bash
 # 1. install
-npm install
-
 # 2. add your OpenAI key
 cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
