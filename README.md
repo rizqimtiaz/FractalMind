@@ -56,6 +56,7 @@ app/
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
   layout.tsx                  ← Inter + Space Grotesk, dark theme
   page.tsx                    ← mounts the client-only Canvas
+  globals.css                 ← grid, glass, edge animations
 components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
@@ -75,12 +76,6 @@ store/
 | `Backspace / Delete` | Remove the selected node(s)     |
 | `Double-click` node  | Expand it                       |
 
-<!-- metadata: n4ge0e4dcc -->
-<!-- metadata: r6rbm6yait -->
-<!-- metadata: 0p17j1ls85 -->
-<!-- metadata: e6g2v40ukj -->
-<!-- metadata: lsgjcyutrt -->
-<!-- metadata: dy9fxn0dtt -->
 ## Notes
 
 - All AI calls run **server-side**; the OpenAI key never touches the browser.
