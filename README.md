@@ -26,6 +26,10 @@
 
 ## Getting started
 
+<!-- metadata: dyz9cowf2u -->
+<!-- metadata: wrftu45env -->
+<!-- metadata: fgwnk8o98u -->
+<!-- metadata: tjsam3o6ya -->
 ```bash
 # 1. install
 npm install
@@ -46,10 +50,6 @@ Open <http://localhost:3000>.
 | ---------------- | -------- | -------------------------------------------- |
 | `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
-
-## Architecture
-
-```
 app/
   api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
