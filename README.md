@@ -2,6 +2,14 @@
 
 > A spatial AI knowledge synthesizer. Plant a seed concept on an infinite canvas and watch a living mind-map of ideas grow, branch, and synthesize itself.
 
+<!-- metadata: sc3uvj0cx8 -->
+<!-- metadata: 1a2rq9r5rf -->
+<!-- metadata: yzwkkg0gy4 -->
+<!-- metadata: g9knpwlzpi -->
+<!-- metadata: tqlrytm365 -->
+<!-- metadata: ocndvw5976 -->
+<!-- metadata: z7egg7lexp -->
+<!-- metadata: mwgxdgzd9t -->
 ![FractalMind](https://img.shields.io/badge/Next.js-14-000?logo=next.js) ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript) ![Tailwind](https://img.shields.io/badge/Tailwind-3-38bdf8?logo=tailwindcss) ![ReactFlow](https://img.shields.io/badge/React%20Flow-11-ff0072) ![AI SDK](https://img.shields.io/badge/Vercel%20AI%20SDK-4-black)
 
 ---
@@ -49,8 +57,6 @@ Open <http://localhost:3000>.
 
 ## Architecture
 
-```
-app/
   api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
