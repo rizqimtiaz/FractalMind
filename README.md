@@ -61,12 +61,15 @@ components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
   CommandBar.tsx              ← floating ⌘K seed input
+store/
+  useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
+                                radial layout & ancestry walk
+```
 
 ## Keyboard
 
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
-<!-- metadata: 0i2cb3z62y -->
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
