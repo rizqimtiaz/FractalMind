@@ -40,6 +40,8 @@ npm run dev
 
 Open <http://localhost:3000>.
 
+### Environment
+
 | Var              | Required | Description                                  |
 | ---------------- | -------- | -------------------------------------------- |
 | `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
@@ -72,11 +74,6 @@ store/
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
 | `Backspace / Delete` | Remove the selected node(s)     |
-<!-- metadata: 7uzu309nal -->
-<!-- metadata: gmsk5vl9j7 -->
-<!-- metadata: csw5hb8kdo -->
-<!-- metadata: psknpyqss0 -->
-<!-- metadata: zmticbzkjq -->
 | `Double-click` node  | Expand it                       |
 
 ## Notes
