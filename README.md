@@ -20,8 +20,6 @@
 | Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
-<!-- metadata: 594zu4iku2 -->
-<!-- metadata: 2lskmg014g -->
 | State            | Zustand                                                 |
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
 | Iconography      | lucide-react                                            |
@@ -46,6 +44,10 @@ Open <http://localhost:3000>.
 
 | Var              | Required | Description                                  |
 | ---------------- | -------- | -------------------------------------------- |
+| `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
+| `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
+
+## Architecture
 
 ```
 app/
