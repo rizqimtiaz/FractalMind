@@ -26,9 +26,6 @@
 
 ## Getting started
 
-```bash
-# 1. install
-npm install
 
 # 2. add your OpenAI key
 cp .env.example .env.local
@@ -57,6 +54,9 @@ app/
   layout.tsx                  ← Inter + Space Grotesk, dark theme
   page.tsx                    ← mounts the client-only Canvas
   globals.css                 ← grid, glass, edge animations
+<!-- metadata: fr3iesg6wl -->
+<!-- metadata: jo5zshbe9h -->
+<!-- metadata: it3cqt93yl -->
 components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
