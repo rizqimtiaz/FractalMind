@@ -1,4 +1,8 @@
 # FractalMind
+<!-- metadata: 7t0baphnby -->
+<!-- metadata: xgv0vsylwp -->
+<!-- metadata: mmn9mkexec -->
+<!-- metadata: lwvzxyhjtf -->
 
 > A spatial AI knowledge synthesizer. Plant a seed concept on an infinite canvas and watch a living mind-map of ideas grow, branch, and synthesize itself.
 
@@ -67,9 +71,6 @@ store/
 ```
 
 ## Keyboard
-
-| Key                  | Action                          |
-| -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
