@@ -51,9 +51,6 @@ Open <http://localhost:3000>.
 
 ```
 app/
-  api/
-    generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
-    synthesize/route.ts       ← AI: lateral-thinking concept fusion
   layout.tsx                  ← Inter + Space Grotesk, dark theme
   page.tsx                    ← mounts the client-only Canvas
   globals.css                 ← grid, glass, edge animations
@@ -63,6 +60,7 @@ components/
   CommandBar.tsx              ← floating ⌘K seed input
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
+<!-- metadata: vao3r7p6gi -->
                                 radial layout & ancestry walk
 ```
 
