@@ -14,6 +14,11 @@
 - Strictly-typed structured AI output via the **Vercel AI SDK** + **Zod** schemas — no JSON parsing, no hallucinated shapes.
 
 ## Tech
+<!-- metadata: jezzfyzr4j -->
+<!-- metadata: ogmy2wsjry -->
+<!-- metadata: uanyr6oprw -->
+<!-- metadata: g5edusi4dp -->
+<!-- metadata: 733yaryx5x -->
 
 | Layer            | Choice                                                  |
 | ---------------- | ------------------------------------------------------- |
@@ -21,10 +26,6 @@
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
-| Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
-| Iconography      | lucide-react                                            |
-
-## Getting started
 
 ```bash
 # 1. install
