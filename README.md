@@ -17,7 +17,6 @@
 
 | Layer            | Choice                                                  |
 | ---------------- | ------------------------------------------------------- |
-<!-- metadata: 41lmomvlkd -->
 | Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
@@ -73,6 +72,10 @@ store/
 | -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
 | `Shift + drag`       | Box-select multiple nodes       |
+| `⌘ / Ctrl + Enter`   | Synthesize the current selection|
+| `Backspace / Delete` | Remove the selected node(s)     |
+| `Double-click` node  | Expand it                       |
+
 ## Notes
 
 - All AI calls run **server-side**; the OpenAI key never touches the browser.
