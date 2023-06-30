@@ -4,9 +4,6 @@
 
 ![FractalMind](https://img.shields.io/badge/Next.js-14-000?logo=next.js) ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript) ![Tailwind](https://img.shields.io/badge/Tailwind-3-38bdf8?logo=tailwindcss) ![ReactFlow](https://img.shields.io/badge/React%20Flow-11-ff0072) ![AI SDK](https://img.shields.io/badge/Vercel%20AI%20SDK-4-black)
 
-<!-- metadata: je965i54j9 -->
-<!-- metadata: 0p7veoh409 -->
-<!-- metadata: z68fo7txy0 -->
 ---
 
 ## What it does
@@ -40,6 +37,10 @@ cp .env.example .env.local
 # 3. run
 npm run dev
 ```
+
+Open <http://localhost:3000>.
+
+### Environment
 
 | Var              | Required | Description                                  |
 | ---------------- | -------- | -------------------------------------------- |
