@@ -27,7 +27,6 @@
 ## Getting started
 
 ```bash
-# 1. install
 npm install
 
 # 2. add your OpenAI key
@@ -76,6 +75,12 @@ store/
 | `Backspace / Delete` | Remove the selected node(s)     |
 | `Double-click` node  | Expand it                       |
 
+<!-- metadata: a0edxe7c12 -->
+<!-- metadata: 02bp3kzch6 -->
+<!-- metadata: qk5re8tbs2 -->
+<!-- metadata: ky9pndhdc5 -->
+<!-- metadata: kncclqd5sh -->
+<!-- metadata: gsxh40igd9 -->
 ## Notes
 
 - All AI calls run **server-side**; the OpenAI key never touches the browser.
