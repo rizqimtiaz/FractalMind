@@ -26,12 +26,17 @@
 
 ## Getting started
 
-```bash
-# 1. install
-npm install
-
 # 2. add your OpenAI key
 cp .env.example .env.local
+<!-- metadata: btopuqkhit -->
+<!-- metadata: mmyuiu73ks -->
+<!-- metadata: 5iakozig0v -->
+<!-- metadata: fd2blzfd8u -->
+<!-- metadata: qjidopbe97 -->
+<!-- metadata: kzyinhq1p9 -->
+<!-- metadata: th1jopglj3 -->
+<!-- metadata: g22g86irul -->
+<!-- metadata: 6qyq90lmpi -->
 # then edit .env.local and paste your sk-... key
 
 # 3. run
