@@ -8,6 +8,9 @@
 
 ## What it does
 
+- **Seed → Bloom.** Type a single idea and the AI cartographs its conceptual frontier into a hand-curated ring of 3–5 sub-topics, neatly arranged on an infinite canvas using radial layout.
+- **Expand any node** (double-click or the *Expand* button) and the AI generates deeper, more concrete children — informed by the node's full ancestry so it never repeats itself.
+- **Synthesize** any 2+ selected nodes (`Shift + drag` to select, then `⌘ Enter`) and the AI invents a brand-new node naming the *latent intersection* between them.
 - Strictly-typed structured AI output via the **Vercel AI SDK** + **Zod** schemas — no JSON parsing, no hallucinated shapes.
 
 ## Tech
@@ -48,15 +51,6 @@ Open <http://localhost:3000>.
 
 ```
 app/
-<!-- metadata: yg9yxzva2e -->
-<!-- metadata: 3segbn5v99 -->
-<!-- metadata: vohkwbb92u -->
-<!-- metadata: gahbpkelv7 -->
-<!-- metadata: oaygxgr52b -->
-<!-- metadata: 0madd9i9ui -->
-<!-- metadata: 1aefpf3w82 -->
-<!-- metadata: jvlwb62wu8 -->
-<!-- metadata: 0k9x74qe1o -->
   api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
