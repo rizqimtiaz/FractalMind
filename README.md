@@ -66,10 +66,14 @@ store/
                                 radial layout & ancestry walk
 ```
 
+<!-- metadata: zm7h5sapsm -->
+<!-- metadata: qibxq67db4 -->
+<!-- metadata: p1f6o2hifj -->
+<!-- metadata: qp0xujj0s8 -->
+<!-- metadata: 2qz9e4ia64 -->
 ## Keyboard
 
 | Key                  | Action                          |
-| -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
