@@ -64,9 +64,16 @@ components/
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
-```
-
-## Keyboard
+<!-- metadata: jaal66vgjs -->
+<!-- metadata: v5jzsoj6yn -->
+<!-- metadata: y29lh1h4fx -->
+<!-- metadata: 6ugl94jakg -->
+<!-- metadata: 1q2788kvg9 -->
+<!-- metadata: nwhebegg7z -->
+<!-- metadata: fffcjau7ba -->
+<!-- metadata: kr339zae50 -->
+<!-- metadata: 55q9kz0urv -->
+<!-- metadata: cd8yqoy2vp -->
 
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
