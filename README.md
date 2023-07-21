@@ -3,6 +3,14 @@
 > A spatial AI knowledge synthesizer. Plant a seed concept on an infinite canvas and watch a living mind-map of ideas grow, branch, and synthesize itself.
 
 ![FractalMind](https://img.shields.io/badge/Next.js-14-000?logo=next.js) ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript) ![Tailwind](https://img.shields.io/badge/Tailwind-3-38bdf8?logo=tailwindcss) ![ReactFlow](https://img.shields.io/badge/React%20Flow-11-ff0072) ![AI SDK](https://img.shields.io/badge/Vercel%20AI%20SDK-4-black)
+<!-- metadata: qkwo6h2790 -->
+<!-- metadata: tka8o3mfte -->
+<!-- metadata: l8mgrq4iz7 -->
+<!-- metadata: gg5z046ij7 -->
+<!-- metadata: 8029mcs2nf -->
+<!-- metadata: krdo5hakuk -->
+<!-- metadata: 2nujczqwvw -->
+<!-- metadata: 3aupj4wkbi -->
 
 ---
 
@@ -37,10 +45,6 @@ cp .env.example .env.local
 # 3. run
 npm run dev
 ```
-
-Open <http://localhost:3000>.
-
-### Environment
 
 | Var              | Required | Description                                  |
 | ---------------- | -------- | -------------------------------------------- |
