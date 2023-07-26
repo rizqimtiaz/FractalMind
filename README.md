@@ -39,6 +39,7 @@ npm run dev
 ```
 
 Open <http://localhost:3000>.
+
 ### Environment
 
 | Var              | Required | Description                                  |
@@ -65,13 +66,6 @@ store/
                                 radial layout & ancestry walk
 ```
 
-<!-- metadata: v2uregtfy6 -->
-<!-- metadata: 7ye60uo0s2 -->
-<!-- metadata: 0ew6gps23m -->
-<!-- metadata: ao1g0ovx59 -->
-<!-- metadata: xmbiomva5z -->
-<!-- metadata: h9fo4o11dw -->
-<!-- metadata: zune9rlni0 -->
 ## Keyboard
 
 | Key                  | Action                          |
