@@ -18,6 +18,9 @@
 | Layer            | Choice                                                  |
 | ---------------- | ------------------------------------------------------- |
 | Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
+| Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
+| AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
+| State            | Zustand                                                 |
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
 | Iconography      | lucide-react                                            |
 
@@ -59,12 +62,6 @@ components/
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
   CommandBar.tsx              ← floating ⌘K seed input
 store/
-<!-- metadata: c1j3t5o4lg -->
-<!-- metadata: 09gx8vqv7z -->
-<!-- metadata: 4sab6p2uif -->
-<!-- metadata: i1hoturauf -->
-<!-- metadata: r308zkvnt7 -->
-<!-- metadata: lep54nnmgs -->
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
 ```
