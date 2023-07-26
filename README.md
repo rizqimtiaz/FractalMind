@@ -51,16 +51,6 @@ Open <http://localhost:3000>.
 
 ```
 app/
-<!-- metadata: 1x913fz27m -->
-<!-- metadata: og4m3fsuyu -->
-<!-- metadata: e0699bcyhc -->
-<!-- metadata: qakbwc0sc2 -->
-<!-- metadata: ggk14wmx6g -->
-<!-- metadata: u4lvko7ime -->
-<!-- metadata: f4o9f37wwb -->
-<!-- metadata: ym0kjyb1gf -->
-<!-- metadata: aufxh76i6a -->
-<!-- metadata: ktonpw9anw -->
   api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
@@ -80,6 +70,8 @@ store/
 
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
+| `⌘ / Ctrl + K`       | Focus the seed bar              |
+| `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
 | `Backspace / Delete` | Remove the selected node(s)     |
 | `Double-click` node  | Expand it                       |
