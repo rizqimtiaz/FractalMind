@@ -31,6 +31,8 @@
 npm install
 
 # 2. add your OpenAI key
+cp .env.example .env.local
+# then edit .env.local and paste your sk-... key
 
 # 3. run
 npm run dev
@@ -80,8 +82,4 @@ store/
 - The radial layout in `useGraphStore.radialPositions` does collision-aware spiral fallback so child nodes never overlap existing ones.
 - Edges use a shared `<linearGradient id="fractalEdgeGradient">` defined once inside the canvas — referenced by every `react-flow__edge-path` via CSS.
 
-<!-- metadata: yuqs7rf789 -->
-<!-- metadata: ozyei31e4n -->
-<!-- metadata: mad19e6gzf -->
-<!-- metadata: rhdj6yozj8 -->
 Built to demonstrate what a state-of-the-art LLM can do when given a *spatial* interface instead of a chat box.
