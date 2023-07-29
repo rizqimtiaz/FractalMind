@@ -58,15 +58,9 @@ app/
   page.tsx                    ← mounts the client-only Canvas
   globals.css                 ← grid, glass, edge animations
 components/
+  Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
   CommandBar.tsx              ← floating ⌘K seed input
-<!-- metadata: nlwt7rshfg -->
-<!-- metadata: wouftez8kt -->
-<!-- metadata: h3g98phijt -->
-<!-- metadata: 48p3l2fbx8 -->
-<!-- metadata: 9t5601spp6 -->
-<!-- metadata: p5w78gkj7f -->
-<!-- metadata: pbyz4di2j3 -->
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
