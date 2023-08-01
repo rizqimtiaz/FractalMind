@@ -4,15 +4,6 @@
 
 ![FractalMind](https://img.shields.io/badge/Next.js-14-000?logo=next.js) ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript) ![Tailwind](https://img.shields.io/badge/Tailwind-3-38bdf8?logo=tailwindcss) ![ReactFlow](https://img.shields.io/badge/React%20Flow-11-ff0072) ![AI SDK](https://img.shields.io/badge/Vercel%20AI%20SDK-4-black)
 
-<!-- metadata: ajc37g5gq8 -->
-<!-- metadata: 7lxzzie73m -->
-<!-- metadata: 47dah6717s -->
-<!-- metadata: j7pkma7inv -->
-<!-- metadata: mwtrfnlhel -->
-<!-- metadata: l783y13heg -->
-<!-- metadata: uidc4nqcwx -->
-<!-- metadata: c9dgcovtvs -->
-<!-- metadata: at3kq9ucjo -->
 ---
 
 ## What it does
@@ -59,6 +50,8 @@ Open <http://localhost:3000>.
 ## Architecture
 
 ```
+app/
+  api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
   layout.tsx                  ← Inter + Space Grotesk, dark theme
