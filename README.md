@@ -29,6 +29,11 @@
 ```bash
 # 1. install
 npm install
+<!-- metadata: knr46j3hr0 -->
+<!-- metadata: ypnheymqt4 -->
+<!-- metadata: pfqz23mfb1 -->
+<!-- metadata: kq13x8q488 -->
+<!-- metadata: gjcf2e7mt8 -->
 
 # 2. add your OpenAI key
 cp .env.example .env.local
@@ -54,9 +59,6 @@ app/
   api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
-  layout.tsx                  ← Inter + Space Grotesk, dark theme
-  page.tsx                    ← mounts the client-only Canvas
-  globals.css                 ← grid, glass, edge animations
 components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
