@@ -55,13 +55,6 @@ app/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
   layout.tsx                  ← Inter + Space Grotesk, dark theme
-<!-- metadata: ap59ip96qd -->
-<!-- metadata: t7jcmdd2wa -->
-<!-- metadata: kman3do4tt -->
-<!-- metadata: lrwcbms6fc -->
-<!-- metadata: y0wk7yt1jr -->
-<!-- metadata: 3weotef3pa -->
-<!-- metadata: 4gyzrg9akt -->
   page.tsx                    ← mounts the client-only Canvas
   globals.css                 ← grid, glass, edge animations
 components/
@@ -74,6 +67,10 @@ store/
 ```
 
 ## Keyboard
+
+| Key                  | Action                          |
+| -------------------- | ------------------------------- |
+| `⌘ / Ctrl + K`       | Focus the seed bar              |
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
 | `Backspace / Delete` | Remove the selected node(s)     |
