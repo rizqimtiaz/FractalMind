@@ -1,8 +1,5 @@
 # FractalMind
 
-> A spatial AI knowledge synthesizer. Plant a seed concept on an infinite canvas and watch a living mind-map of ideas grow, branch, and synthesize itself.
-
-![FractalMind](https://img.shields.io/badge/Next.js-14-000?logo=next.js) ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript) ![Tailwind](https://img.shields.io/badge/Tailwind-3-38bdf8?logo=tailwindcss) ![ReactFlow](https://img.shields.io/badge/React%20Flow-11-ff0072) ![AI SDK](https://img.shields.io/badge/Vercel%20AI%20SDK-4-black)
 
 ---
 
@@ -70,6 +67,16 @@ store/
 
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
+<!-- metadata: 00nlx4sr0k -->
+<!-- metadata: uri8yzi8up -->
+<!-- metadata: fxva8ss5dg -->
+<!-- metadata: 6p44efd3gg -->
+<!-- metadata: p833vwumee -->
+<!-- metadata: ix77o6rsg9 -->
+<!-- metadata: yxbxkk9685 -->
+<!-- metadata: 1scly18b86 -->
+<!-- metadata: hgjo97osno -->
+<!-- metadata: vl5ge38gwn -->
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
