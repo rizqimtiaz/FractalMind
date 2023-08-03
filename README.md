@@ -38,7 +38,6 @@ cp .env.example .env.local
 npm run dev
 ```
 
-Open <http://localhost:3000>.
 
 ### Environment
 
@@ -60,6 +59,13 @@ app/
 components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
+<!-- metadata: k7vpnftfvg -->
+<!-- metadata: zsx5ttxryb -->
+<!-- metadata: ilpfizmrzg -->
+<!-- metadata: 1pnq6ahq9q -->
+<!-- metadata: rb5k7dofv4 -->
+<!-- metadata: 05mlbrkngl -->
+<!-- metadata: mwnoq4n7a5 -->
   CommandBar.tsx              ← floating ⌘K seed input
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
