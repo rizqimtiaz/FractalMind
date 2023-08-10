@@ -15,6 +15,10 @@
 
 ## Tech
 
+<!-- metadata: 5wqgplmqe4 -->
+<!-- metadata: 5ftsudje91 -->
+<!-- metadata: ivpbutzca0 -->
+<!-- metadata: 1canw89xcv -->
 | Layer            | Choice                                                  |
 | ---------------- | ------------------------------------------------------- |
 | Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
@@ -42,9 +46,6 @@ Open <http://localhost:3000>.
 
 ### Environment
 
-| Var              | Required | Description                                  |
-| ---------------- | -------- | -------------------------------------------- |
-| `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
 
 ## Architecture
