@@ -1,4 +1,12 @@
 # FractalMind
+<!-- metadata: 52y1ykp5yp -->
+<!-- metadata: u9yukjf1bw -->
+<!-- metadata: pyqrk52szl -->
+<!-- metadata: 4jwgu6nnhj -->
+<!-- metadata: mex4hk9muj -->
+<!-- metadata: j3xrfcma2n -->
+<!-- metadata: aza3gf8ryh -->
+<!-- metadata: 4awuluwuar -->
 
 > A spatial AI knowledge synthesizer. Plant a seed concept on an infinite canvas and watch a living mind-map of ideas grow, branch, and synthesize itself.
 
@@ -22,7 +30,6 @@
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
-| Iconography      | lucide-react                                            |
 
 ## Getting started
 
