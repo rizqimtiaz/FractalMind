@@ -47,16 +47,6 @@ Open <http://localhost:3000>.
 | `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
 
-<!-- metadata: 6q7qpg93ds -->
-<!-- metadata: z1w3w2amfi -->
-<!-- metadata: wj3qubwhld -->
-<!-- metadata: rgdsmklshz -->
-<!-- metadata: 300djqsf1h -->
-<!-- metadata: vjyhpcpvy7 -->
-<!-- metadata: p0sxgerulh -->
-<!-- metadata: xl7k059pge -->
-<!-- metadata: 8q5jdanwbp -->
-<!-- metadata: v91hetan45 -->
 ## Architecture
 
 ```
@@ -71,6 +61,8 @@ components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
   CommandBar.tsx              ← floating ⌘K seed input
+store/
+  useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
 ```
 
