@@ -38,6 +38,8 @@ cp .env.example .env.local
 npm run dev
 ```
 
+Open <http://localhost:3000>.
+
 ### Environment
 
 | Var              | Required | Description                                  |
@@ -47,9 +49,6 @@ npm run dev
 
 ## Architecture
 
-<!-- metadata: d6080mswhn -->
-<!-- metadata: rd9bbk5lnt -->
-<!-- metadata: cafv98cjxi -->
 ```
 app/
   api/
