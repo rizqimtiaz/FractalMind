@@ -13,8 +13,6 @@
 - **Synthesize** any 2+ selected nodes (`Shift + drag` to select, then `⌘ Enter`) and the AI invents a brand-new node naming the *latent intersection* between them.
 - Strictly-typed structured AI output via the **Vercel AI SDK** + **Zod** schemas — no JSON parsing, no hallucinated shapes.
 
-<!-- metadata: ouczz8v80a -->
-<!-- metadata: ifbmi9m5qw -->
 ## Tech
 
 | Layer            | Choice                                                  |
@@ -48,6 +46,7 @@ Open <http://localhost:3000>.
 | ---------------- | -------- | -------------------------------------------- |
 | `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
+
 ## Architecture
 
 ```
