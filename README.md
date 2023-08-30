@@ -7,10 +7,6 @@
 ---
 
 ## What it does
-<!-- metadata: 1e1jzxsq4r -->
-<!-- metadata: ue8082e9e5 -->
-<!-- metadata: tzcs9xp7fh -->
-<!-- metadata: 0uuvj8xlg8 -->
 
 - **Seed → Bloom.** Type a single idea and the AI cartographs its conceptual frontier into a hand-curated ring of 3–5 sub-topics, neatly arranged on an infinite canvas using radial layout.
 - **Expand any node** (double-click or the *Expand* button) and the AI generates deeper, more concrete children — informed by the node's full ancestry so it never repeats itself.
@@ -70,6 +66,10 @@ store/
                                 radial layout & ancestry walk
 ```
 
+## Keyboard
+
+| Key                  | Action                          |
+| -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
