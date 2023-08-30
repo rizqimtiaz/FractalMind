@@ -30,6 +30,10 @@
 # 1. install
 npm install
 
+<!-- metadata: y77xojc4mf -->
+<!-- metadata: s5flbj4472 -->
+<!-- metadata: b8zpv2oar3 -->
+<!-- metadata: 9h1emtlvw8 -->
 # 2. add your OpenAI key
 cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
@@ -52,7 +56,6 @@ Open <http://localhost:3000>.
 ```
 app/
   api/
-    generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
   layout.tsx                  ← Inter + Space Grotesk, dark theme
   page.tsx                    ← mounts the client-only Canvas
