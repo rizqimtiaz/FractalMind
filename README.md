@@ -14,10 +14,6 @@
 - Strictly-typed structured AI output via the **Vercel AI SDK** + **Zod** schemas — no JSON parsing, no hallucinated shapes.
 
 ## Tech
-<!-- metadata: s3tl5lzpf5 -->
-<!-- metadata: 2qva479mc0 -->
-<!-- metadata: 234qd7hjbz -->
-<!-- metadata: shek5nrbai -->
 
 | Layer            | Choice                                                  |
 | ---------------- | ------------------------------------------------------- |
@@ -52,6 +48,9 @@ Open <http://localhost:3000>.
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
 
 ## Architecture
+
+```
+app/
   api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
