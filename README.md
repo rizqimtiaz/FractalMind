@@ -33,6 +33,8 @@ npm install
 # 2. add your OpenAI key
 cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
+
+# 3. run
 npm run dev
 ```
 
@@ -61,13 +63,6 @@ components/
   CommandBar.tsx              ← floating ⌘K seed input
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
-<!-- metadata: d6c3wtras5 -->
-<!-- metadata: nbkva7zov3 -->
-<!-- metadata: a5tv1llwfw -->
-<!-- metadata: b8w4dnpqwz -->
-<!-- metadata: we0hxia36t -->
-<!-- metadata: pif3xirivh -->
-<!-- metadata: 7k394pe8th -->
                                 radial layout & ancestry walk
 ```
 
