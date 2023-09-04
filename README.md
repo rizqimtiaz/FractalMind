@@ -64,6 +64,10 @@ components/
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
+```
+
+## Keyboard
+
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
@@ -76,14 +80,6 @@ store/
 
 - All AI calls run **server-side**; the OpenAI key never touches the browser.
 - The radial layout in `useGraphStore.radialPositions` does collision-aware spiral fallback so child nodes never overlap existing ones.
-<!-- metadata: 0qeuwr8c0e -->
-<!-- metadata: 8rvv99bvfy -->
-<!-- metadata: o90o5ssgeu -->
-<!-- metadata: xb2m7oesoz -->
-<!-- metadata: lohsqb0tky -->
-<!-- metadata: jdqpuzbccz -->
-<!-- metadata: 15b8g1s8kn -->
-<!-- metadata: t3ols7k3zn -->
 - Edges use a shared `<linearGradient id="fractalEdgeGradient">` defined once inside the canvas — referenced by every `react-flow__edge-path` via CSS.
 
 Built to demonstrate what a state-of-the-art LLM can do when given a *spatial* interface instead of a chat box.
