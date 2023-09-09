@@ -21,9 +21,6 @@
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
-| Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
-| Iconography      | lucide-react                                            |
-
 ## Getting started
 
 ```bash
@@ -65,6 +62,9 @@ store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
 ```
+<!-- metadata: ynquhabouj -->
+<!-- metadata: u5odki67kl -->
+<!-- metadata: racw20d3qz -->
 
 ## Keyboard
 
