@@ -41,7 +41,6 @@ npm run dev
 Open <http://localhost:3000>.
 
 ### Environment
-
 | Var              | Required | Description                                  |
 | ---------------- | -------- | -------------------------------------------- |
 | `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
@@ -53,6 +52,7 @@ Open <http://localhost:3000>.
 app/
   api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
+<!-- metadata: p2khhd4oc3 -->
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
   layout.tsx                  ← Inter + Space Grotesk, dark theme
   page.tsx                    ← mounts the client-only Canvas
