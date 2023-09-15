@@ -16,6 +16,7 @@
 ## Tech
 
 | Layer            | Choice                                                  |
+| ---------------- | ------------------------------------------------------- |
 | Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
@@ -73,12 +74,6 @@ store/
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
 | `Backspace / Delete` | Remove the selected node(s)     |
-<!-- metadata: 3q2u8trchf -->
-<!-- metadata: vo539cqemz -->
-<!-- metadata: cw5kg8cu1n -->
-<!-- metadata: v34pai38nn -->
-<!-- metadata: bfkq6663ou -->
-<!-- metadata: pl6vwe5fgj -->
 | `Double-click` node  | Expand it                       |
 
 ## Notes
