@@ -14,8 +14,6 @@
 - Strictly-typed structured AI output via the **Vercel AI SDK** + **Zod** schemas — no JSON parsing, no hallucinated shapes.
 
 ## Tech
-<!-- metadata: tu0fqe2vt3 -->
-<!-- metadata: 0lr72cc6l6 -->
 
 | Layer            | Choice                                                  |
 | ---------------- | ------------------------------------------------------- |
@@ -51,6 +49,7 @@ Open <http://localhost:3000>.
 
 ## Architecture
 
+```
 app/
   api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
