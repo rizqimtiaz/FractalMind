@@ -34,6 +34,8 @@ npm install
 cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
 
+# 3. run
+npm run dev
 ```
 
 Open <http://localhost:3000>.
@@ -57,11 +59,6 @@ app/
   globals.css                 ← grid, glass, edge animations
 components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
-<!-- metadata: g425yrtbhb -->
-<!-- metadata: 2s0413i80j -->
-<!-- metadata: ilq716nx1l -->
-<!-- metadata: sxig6au30o -->
-<!-- metadata: 9n7ogwficc -->
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
   CommandBar.tsx              ← floating ⌘K seed input
 store/
