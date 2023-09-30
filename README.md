@@ -15,8 +15,6 @@
 
 ## Tech
 
-| Layer            | Choice                                                  |
-| ---------------- | ------------------------------------------------------- |
 | Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
@@ -57,6 +55,16 @@ app/
   layout.tsx                  ← Inter + Space Grotesk, dark theme
   page.tsx                    ← mounts the client-only Canvas
   globals.css                 ← grid, glass, edge animations
+<!-- metadata: d2ipyanpb4 -->
+<!-- metadata: cxwx5jnlgz -->
+<!-- metadata: e2al0vqika -->
+<!-- metadata: ypxbp1j9r1 -->
+<!-- metadata: f9btd44wbj -->
+<!-- metadata: 3s4doa1g5u -->
+<!-- metadata: ljg84e2gsu -->
+<!-- metadata: byfru16uaw -->
+<!-- metadata: n4ruo7616x -->
+<!-- metadata: 1mxp8rjr67 -->
 components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
