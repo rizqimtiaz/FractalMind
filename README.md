@@ -35,6 +35,10 @@ cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
 
 # 3. run
+<!-- metadata: gh2am2py5d -->
+<!-- metadata: u4pr0r23jr -->
+<!-- metadata: 663ryay5v4 -->
+<!-- metadata: r5anb9rzmp -->
 npm run dev
 ```
 
@@ -64,9 +68,6 @@ components/
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
-```
-
-## Keyboard
 
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
