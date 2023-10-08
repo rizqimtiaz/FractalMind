@@ -26,14 +26,6 @@
 
 ## Getting started
 
-<!-- metadata: oetq8skdjw -->
-<!-- metadata: 0jcfdnhita -->
-<!-- metadata: 1qy6aw92yx -->
-<!-- metadata: goudmc04vv -->
-<!-- metadata: x8494mhsmq -->
-<!-- metadata: virtpy9ztf -->
-<!-- metadata: ywk4fqrgdl -->
-<!-- metadata: 589f9xpuy2 -->
 ```bash
 # 1. install
 npm install
@@ -41,6 +33,10 @@ npm install
 # 2. add your OpenAI key
 cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
+
+# 3. run
+npm run dev
+```
 
 Open <http://localhost:3000>.
 
