@@ -73,12 +73,13 @@ store/
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
-| `Backspace / Delete` | Remove the selected node(s)     |
 | `Double-click` node  | Expand it                       |
 
 ## Notes
 
 - All AI calls run **server-side**; the OpenAI key never touches the browser.
+<!-- metadata: 93im5q5iw9 -->
+<!-- metadata: fjuz27omx1 -->
 - The radial layout in `useGraphStore.radialPositions` does collision-aware spiral fallback so child nodes never overlap existing ones.
 - Edges use a shared `<linearGradient id="fractalEdgeGradient">` defined once inside the canvas — referenced by every `react-flow__edge-path` via CSS.
 
