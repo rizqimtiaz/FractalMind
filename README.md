@@ -36,10 +36,6 @@ cp .env.example .env.local
 
 # 3. run
 npm run dev
-```
-
-Open <http://localhost:3000>.
-
 ### Environment
 
 | Var              | Required | Description                                  |
@@ -73,6 +69,8 @@ store/
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
+<!-- metadata: p2ejoviaek -->
+<!-- metadata: 479l8xga5w -->
 | `Backspace / Delete` | Remove the selected node(s)     |
 | `Double-click` node  | Expand it                       |
 
