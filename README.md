@@ -19,6 +19,7 @@
 | ---------------- | ------------------------------------------------------- |
 | Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
+| AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
 | Iconography      | lucide-react                                            |
@@ -66,8 +67,6 @@ store/
 ```
 
 ## Keyboard
-<!-- metadata: cz52r3za47 -->
-<!-- metadata: wezqzp5zil -->
 
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
