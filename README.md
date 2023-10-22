@@ -22,6 +22,14 @@
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
+<!-- metadata: f4gzuhousf -->
+<!-- metadata: hs13lhwbez -->
+<!-- metadata: ojtbx9s3a1 -->
+<!-- metadata: crgkbbtzan -->
+<!-- metadata: 4igaml31gi -->
+<!-- metadata: utb4canaee -->
+<!-- metadata: q91zwi4hmx -->
+<!-- metadata: jjyz0way1k -->
 | Iconography      | lucide-react                                            |
 
 ## Getting started
@@ -65,9 +73,6 @@ store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
 ```
-
-## Keyboard
-
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
