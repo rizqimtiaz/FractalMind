@@ -1,8 +1,3 @@
-<!-- metadata: d68jb8hiji -->
-<!-- metadata: r6irrpj6fx -->
-<!-- metadata: izudagwkjc -->
-<!-- metadata: nfis481kwm -->
-<!-- metadata: to2cxf08pu -->
 # FractalMind
 
 > A spatial AI knowledge synthesizer. Plant a seed concept on an infinite canvas and watch a living mind-map of ideas grow, branch, and synthesize itself.
@@ -38,6 +33,9 @@ npm install
 # 2. add your OpenAI key
 cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
+
+# 3. run
+npm run dev
 ```
 
 Open <http://localhost:3000>.
