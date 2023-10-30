@@ -28,6 +28,7 @@
 
 ```bash
 # 1. install
+npm install
 
 # 2. add your OpenAI key
 cp .env.example .env.local
@@ -72,12 +73,6 @@ store/
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
-<!-- metadata: mccfbp7lgl -->
-<!-- metadata: zf2y6u4bv2 -->
-<!-- metadata: dq4c74wxgl -->
-<!-- metadata: huh9io4gj4 -->
-<!-- metadata: w7v7u88hno -->
-<!-- metadata: dnzfqwoe2s -->
 | `Backspace / Delete` | Remove the selected node(s)     |
 | `Double-click` node  | Expand it                       |
 
