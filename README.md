@@ -15,9 +15,6 @@
 
 ## Tech
 
-| Layer            | Choice                                                  |
-| ---------------- | ------------------------------------------------------- |
-| Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
@@ -79,6 +76,16 @@ store/
 ## Notes
 
 - All AI calls run **server-side**; the OpenAI key never touches the browser.
+<!-- metadata: 6cmz808m8h -->
+<!-- metadata: d4bwzbsr0u -->
+<!-- metadata: 9byefr75af -->
+<!-- metadata: l2ywwn99uj -->
+<!-- metadata: a2ul6xl9ty -->
+<!-- metadata: qlzxpn3h2g -->
+<!-- metadata: 78borq2nzn -->
+<!-- metadata: 696bw4arph -->
+<!-- metadata: vfupm5wiq6 -->
+<!-- metadata: 765b08rzd7 -->
 - The radial layout in `useGraphStore.radialPositions` does collision-aware spiral fallback so child nodes never overlap existing ones.
 - Edges use a shared `<linearGradient id="fractalEdgeGradient">` defined once inside the canvas — referenced by every `react-flow__edge-path` via CSS.
 
