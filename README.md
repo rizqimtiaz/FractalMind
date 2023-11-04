@@ -21,13 +21,6 @@
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
-<!-- metadata: 89h58wvln1 -->
-<!-- metadata: cqkxbavst5 -->
-<!-- metadata: o0m069elo4 -->
-<!-- metadata: 3s35juojr2 -->
-<!-- metadata: y811ywzm59 -->
-<!-- metadata: 9on2cjcu05 -->
-<!-- metadata: 7z2q5mq4i6 -->
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
 | Iconography      | lucide-react                                            |
 
@@ -44,6 +37,9 @@ cp .env.example .env.local
 # 3. run
 npm run dev
 ```
+
+Open <http://localhost:3000>.
+
 ### Environment
 
 | Var              | Required | Description                                  |
