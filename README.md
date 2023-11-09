@@ -13,20 +13,15 @@
 - **Synthesize** any 2+ selected nodes (`Shift + drag` to select, then `⌘ Enter`) and the AI invents a brand-new node naming the *latent intersection* between them.
 - Strictly-typed structured AI output via the **Vercel AI SDK** + **Zod** schemas — no JSON parsing, no hallucinated shapes.
 
-<!-- metadata: 4fp4e9p7n8 -->
-<!-- metadata: 8dgklgit0q -->
-<!-- metadata: cusfk82hn4 -->
-<!-- metadata: 01ra5jhvjm -->
-<!-- metadata: jbvg63jn2q -->
-<!-- metadata: vz1vfypyjh -->
-<!-- metadata: zc4krhe3q8 -->
-<!-- metadata: zztyhiqqyk -->
 ## Tech
 
 | Layer            | Choice                                                  |
 | ---------------- | ------------------------------------------------------- |
 | Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
+| AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
+| State            | Zustand                                                 |
+| Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
 | Iconography      | lucide-react                                            |
 
 ## Getting started
