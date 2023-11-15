@@ -26,6 +26,10 @@
 
 ## Getting started
 
+```bash
+# 1. install
+npm install
+
 # 2. add your OpenAI key
 cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
@@ -60,12 +64,6 @@ components/
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
-<!-- metadata: nrtu3782fs -->
-<!-- metadata: suy4j2uajy -->
-<!-- metadata: suiduxdkl2 -->
-<!-- metadata: nwcq9whs9r -->
-<!-- metadata: 128jjw6pyw -->
-<!-- metadata: 21vvigvt3m -->
 ```
 
 ## Keyboard
