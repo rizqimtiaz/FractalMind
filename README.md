@@ -27,13 +27,6 @@
 ## Getting started
 
 ```bash
-<!-- metadata: v62f20gjuf -->
-<!-- metadata: ng31dfnvpc -->
-<!-- metadata: 010xgdejiy -->
-<!-- metadata: r89n37q1f8 -->
-<!-- metadata: x0ftdpzjme -->
-<!-- metadata: xi7fqoa5k2 -->
-<!-- metadata: qn0j6f73g8 -->
 # 1. install
 npm install
 
@@ -61,6 +54,9 @@ app/
   api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
+  layout.tsx                  ← Inter + Space Grotesk, dark theme
+  page.tsx                    ← mounts the client-only Canvas
+  globals.css                 ← grid, glass, edge animations
 components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
