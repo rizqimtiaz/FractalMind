@@ -24,6 +24,10 @@
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
 | Iconography      | lucide-react                                            |
 
+<!-- metadata: 268i8ntoqe -->
+<!-- metadata: u0r7npnbq4 -->
+<!-- metadata: 1p8je3bfy9 -->
+<!-- metadata: ie5a00z2kw -->
 ## Getting started
 
 ```bash
@@ -60,9 +64,6 @@ app/
 components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
-  CommandBar.tsx              ← floating ⌘K seed input
-store/
-  useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
 ```
 
