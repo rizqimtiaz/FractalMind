@@ -62,6 +62,10 @@ components/
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
   CommandBar.tsx              ← floating ⌘K seed input
 store/
+<!-- metadata: tkd49pznpe -->
+<!-- metadata: uydx50fvml -->
+<!-- metadata: rtfhi2i0kk -->
+<!-- metadata: d3yhhyhytl -->
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
 ```
@@ -69,8 +73,6 @@ store/
 ## Keyboard
 
 | Key                  | Action                          |
-| -------------------- | ------------------------------- |
-| `⌘ / Ctrl + K`       | Focus the seed bar              |
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
 | `Backspace / Delete` | Remove the selected node(s)     |
