@@ -48,10 +48,16 @@ Open <http://localhost:3000>.
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
 
 ## Architecture
-
-```
 app/
   api/
+<!-- metadata: vwg90wzyg0 -->
+<!-- metadata: uxjsoabtzt -->
+<!-- metadata: o4hrczg50a -->
+<!-- metadata: xhxkfg649v -->
+<!-- metadata: 2d44luwzkc -->
+<!-- metadata: 11dwjbdaiu -->
+<!-- metadata: 5ing4h02eb -->
+<!-- metadata: 4uddr5e3ck -->
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
   layout.tsx                  ← Inter + Space Grotesk, dark theme
