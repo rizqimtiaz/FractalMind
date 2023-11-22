@@ -1,10 +1,3 @@
-<!-- metadata: 22m96jtlm0 -->
-<!-- metadata: 1czl0i9ek8 -->
-<!-- metadata: ehcglajvu7 -->
-<!-- metadata: m4w0dazg3a -->
-<!-- metadata: aeg38gzawr -->
-<!-- metadata: s2m2xv3uj5 -->
-<!-- metadata: 3ho3y89q33 -->
 # FractalMind
 
 > A spatial AI knowledge synthesizer. Plant a seed concept on an infinite canvas and watch a living mind-map of ideas grow, branch, and synthesize itself.
@@ -50,6 +43,8 @@ Open <http://localhost:3000>.
 ### Environment
 
 | Var              | Required | Description                                  |
+| ---------------- | -------- | -------------------------------------------- |
+| `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
 
 ## Architecture
