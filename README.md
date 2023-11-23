@@ -41,6 +41,14 @@ npm run dev
 Open <http://localhost:3000>.
 
 ### Environment
+<!-- metadata: kt7ocj5ygy -->
+<!-- metadata: vxlskjhxab -->
+<!-- metadata: qt1agnng4q -->
+<!-- metadata: yffnpbpwpt -->
+<!-- metadata: y9wx03jjfx -->
+<!-- metadata: v932jfxdaz -->
+<!-- metadata: zflbdhv9jl -->
+<!-- metadata: lhb1n30c3g -->
 
 | Var              | Required | Description                                  |
 | ---------------- | -------- | -------------------------------------------- |
@@ -71,10 +79,6 @@ store/
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
 | `⌘ / Ctrl + K`       | Focus the seed bar              |
-| `Shift + drag`       | Box-select multiple nodes       |
-| `⌘ / Ctrl + Enter`   | Synthesize the current selection|
-| `Backspace / Delete` | Remove the selected node(s)     |
-| `Double-click` node  | Expand it                       |
 
 ## Notes
 
