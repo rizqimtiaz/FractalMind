@@ -16,9 +16,6 @@
 ## Tech
 
 | Layer            | Choice                                                  |
-<!-- metadata: hvqqdka2as -->
-<!-- metadata: k0qbql6hfv -->
-<!-- metadata: kyfesadh5t -->
 | ---------------- | ------------------------------------------------------- |
 | Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
@@ -67,6 +64,7 @@ components/
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
+```
 
 ## Keyboard
 
