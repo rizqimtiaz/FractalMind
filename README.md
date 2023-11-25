@@ -17,8 +17,6 @@
 
 | Layer            | Choice                                                  |
 | ---------------- | ------------------------------------------------------- |
-| Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
-| Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
@@ -43,6 +41,15 @@ Open <http://localhost:3000>.
 ### Environment
 
 | Var              | Required | Description                                  |
+<!-- metadata: hp630k0jlx -->
+<!-- metadata: galbqklzgg -->
+<!-- metadata: thhtwsx2mo -->
+<!-- metadata: h46okyq6gu -->
+<!-- metadata: 3vi1ykxx6t -->
+<!-- metadata: yi5fe12kih -->
+<!-- metadata: 38yuhi52q9 -->
+<!-- metadata: 5kepymi3qm -->
+<!-- metadata: kuhmbc345o -->
 | ---------------- | -------- | -------------------------------------------- |
 | `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
