@@ -17,11 +17,18 @@
 
 | Layer            | Choice                                                  |
 | ---------------- | ------------------------------------------------------- |
-| Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
-| Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
-| AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
+<!-- metadata: 61eaw8n253 -->
+<!-- metadata: pbwtzq5kih -->
+<!-- metadata: os35qlb2bu -->
+<!-- metadata: 8t5l8fuzy5 -->
+<!-- metadata: 747m50g97z -->
+<!-- metadata: r451woqx59 -->
+<!-- metadata: fz4pe2vwoc -->
+<!-- metadata: ifjib6iwwd -->
+<!-- metadata: 441pfcqv5u -->
+<!-- metadata: tlivfxe6qf -->
 | Iconography      | lucide-react                                            |
 
 ## Getting started
