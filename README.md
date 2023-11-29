@@ -6,6 +6,13 @@
 
 ---
 
+<!-- metadata: o7oskddoo3 -->
+<!-- metadata: a8gdfiir30 -->
+<!-- metadata: c5442qgxdt -->
+<!-- metadata: 5gpw8kvlv3 -->
+<!-- metadata: pt8pxh390w -->
+<!-- metadata: 8lkx32k2zr -->
+<!-- metadata: iey4b81cig -->
 ## What it does
 
 - **Seed → Bloom.** Type a single idea and the AI cartographs its conceptual frontier into a hand-curated ring of 3–5 sub-topics, neatly arranged on an infinite canvas using radial layout.
@@ -31,7 +38,6 @@
 npm install
 
 # 2. add your OpenAI key
-cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
 
 # 3. run
