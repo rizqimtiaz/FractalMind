@@ -15,10 +15,6 @@
 
 ## Tech
 
-<!-- metadata: aed7w35r5y -->
-<!-- metadata: xhf0c0inpj -->
-<!-- metadata: 07fwv6ifov -->
-<!-- metadata: ycb1zto6jl -->
 | Layer            | Choice                                                  |
 | ---------------- | ------------------------------------------------------- |
 | Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
@@ -35,6 +31,8 @@
 npm install
 
 # 2. add your OpenAI key
+cp .env.example .env.local
+# then edit .env.local and paste your sk-... key
 
 # 3. run
 npm run dev
