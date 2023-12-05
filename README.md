@@ -3,6 +3,16 @@
 > A spatial AI knowledge synthesizer. Plant a seed concept on an infinite canvas and watch a living mind-map of ideas grow, branch, and synthesize itself.
 
 ![FractalMind](https://img.shields.io/badge/Next.js-14-000?logo=next.js) ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript) ![Tailwind](https://img.shields.io/badge/Tailwind-3-38bdf8?logo=tailwindcss) ![ReactFlow](https://img.shields.io/badge/React%20Flow-11-ff0072) ![AI SDK](https://img.shields.io/badge/Vercel%20AI%20SDK-4-black)
+<!-- metadata: zcrnhbm66x -->
+<!-- metadata: swprc5tkzc -->
+<!-- metadata: 95khl0raex -->
+<!-- metadata: 8nktjfh0v7 -->
+<!-- metadata: 9lwz0kflsd -->
+<!-- metadata: 46fv2gbtbe -->
+<!-- metadata: axolen0rxj -->
+<!-- metadata: 6yowve3dki -->
+<!-- metadata: o2lqfbvcet -->
+<!-- metadata: tt36797iq4 -->
 
 ---
 
@@ -78,8 +88,5 @@ store/
 
 ## Notes
 
-- All AI calls run **server-side**; the OpenAI key never touches the browser.
-- The radial layout in `useGraphStore.radialPositions` does collision-aware spiral fallback so child nodes never overlap existing ones.
-- Edges use a shared `<linearGradient id="fractalEdgeGradient">` defined once inside the canvas — referenced by every `react-flow__edge-path` via CSS.
 
 Built to demonstrate what a state-of-the-art LLM can do when given a *spatial* interface instead of a chat box.
