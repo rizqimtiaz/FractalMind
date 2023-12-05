@@ -51,16 +51,6 @@ Open <http://localhost:3000>.
 
 ```
 app/
-<!-- metadata: 3ar164x3fh -->
-<!-- metadata: v90vudkptu -->
-<!-- metadata: xszoa21nnq -->
-<!-- metadata: z524h8jsd1 -->
-<!-- metadata: bw9v9gxtao -->
-<!-- metadata: 5d6dad6mut -->
-<!-- metadata: ngbdskhxh5 -->
-<!-- metadata: z8my3fzbup -->
-<!-- metadata: oxkdpqp7d2 -->
-<!-- metadata: 4d1fh9ktdu -->
   api/
     generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
@@ -76,6 +66,7 @@ store/
                                 radial layout & ancestry walk
 ```
 
+## Keyboard
 
 | Key                  | Action                          |
 | -------------------- | ------------------------------- |
