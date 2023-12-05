@@ -31,6 +31,7 @@
 npm install
 
 # 2. add your OpenAI key
+cp .env.example .env.local
 # then edit .env.local and paste your sk-... key
 
 # 3. run
@@ -65,15 +66,6 @@ store/
                                 radial layout & ancestry walk
 ```
 
-<!-- metadata: w34h20l182 -->
-<!-- metadata: 8cq4xp0uod -->
-<!-- metadata: jx95wqah2l -->
-<!-- metadata: ny3maux8dv -->
-<!-- metadata: gisjojajrm -->
-<!-- metadata: 01xqrwqgx1 -->
-<!-- metadata: eb7id6p0it -->
-<!-- metadata: nnrhb05yw2 -->
-<!-- metadata: abxq4cwth2 -->
 ## Keyboard
 
 | Key                  | Action                          |
