@@ -37,14 +37,6 @@ cp .env.example .env.local
 # 3. run
 npm run dev
 ```
-<!-- metadata: eroq1sk37g -->
-<!-- metadata: 8prmn6i89n -->
-<!-- metadata: biq2ycjjxz -->
-<!-- metadata: bc7jki23rd -->
-<!-- metadata: gw7596ibrx -->
-<!-- metadata: 4ed66j6pql -->
-<!-- metadata: cz0szfcswv -->
-<!-- metadata: i7lxa91soe -->
 
 Open <http://localhost:3000>.
 
@@ -82,6 +74,7 @@ store/
 | `Shift + drag`       | Box-select multiple nodes       |
 | `⌘ / Ctrl + Enter`   | Synthesize the current selection|
 | `Backspace / Delete` | Remove the selected node(s)     |
+| `Double-click` node  | Expand it                       |
 
 ## Notes
 
