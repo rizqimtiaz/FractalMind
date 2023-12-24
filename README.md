@@ -25,7 +25,6 @@
 | Iconography      | lucide-react                                            |
 
 ## Getting started
-
 ```bash
 # 1. install
 npm install
@@ -38,6 +37,11 @@ cp .env.example .env.local
 npm run dev
 ```
 
+<!-- metadata: 64k196xua3 -->
+<!-- metadata: ph5561xn94 -->
+<!-- metadata: 8840iko73c -->
+<!-- metadata: 0k8rvejjsh -->
+<!-- metadata: gleure4gun -->
 Open <http://localhost:3000>.
 
 ### Environment
