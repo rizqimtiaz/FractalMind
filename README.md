@@ -20,10 +20,6 @@
 | Framework        | Next.js 14 (App Router) + TypeScript (strict)           |
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
-<!-- metadata: xetke6xck7 -->
-<!-- metadata: 4wpl80mcai -->
-<!-- metadata: ewi4ctnlld -->
-<!-- metadata: huxyu160ox -->
 | State            | Zustand                                                 |
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
 | Iconography      | lucide-react                                            |
@@ -68,6 +64,7 @@ components/
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
+```
 
 ## Keyboard
 
