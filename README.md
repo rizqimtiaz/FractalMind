@@ -4,7 +4,6 @@
 
 ![FractalMind](https://img.shields.io/badge/Next.js-14-000?logo=next.js) ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript) ![Tailwind](https://img.shields.io/badge/Tailwind-3-38bdf8?logo=tailwindcss) ![ReactFlow](https://img.shields.io/badge/React%20Flow-11-ff0072) ![AI SDK](https://img.shields.io/badge/Vercel%20AI%20SDK-4-black)
 
----
 
 ## What it does
 
@@ -45,6 +44,8 @@ Open <http://localhost:3000>.
 | Var              | Required | Description                                  |
 | ---------------- | -------- | -------------------------------------------- |
 | `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
+<!-- metadata: qi85wx2kao -->
+<!-- metadata: g0tbsehqsc -->
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
 
 ## Architecture
