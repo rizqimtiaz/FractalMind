@@ -60,10 +60,6 @@ app/
 components/
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
-  CommandBar.tsx              ← floating ⌘K seed input
-store/
-  useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
-                                radial layout & ancestry walk
 ```
 
 ## Keyboard
@@ -83,3 +79,7 @@ store/
 - Edges use a shared `<linearGradient id="fractalEdgeGradient">` defined once inside the canvas — referenced by every `react-flow__edge-path` via CSS.
 
 Built to demonstrate what a state-of-the-art LLM can do when given a *spatial* interface instead of a chat box.
+<!-- metadata: xba9zuc90n -->
+<!-- metadata: 02drgi6uxz -->
+<!-- metadata: miefkptcr5 -->
+<!-- metadata: mocix1gg5e -->
