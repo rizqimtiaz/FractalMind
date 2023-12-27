@@ -45,8 +45,6 @@ Open <http://localhost:3000>.
 | Var              | Required | Description                                  |
 | ---------------- | -------- | -------------------------------------------- |
 | `OPENAI_API_KEY` | ✅       | Your OpenAI key (used server-side only).     |
-<!-- metadata: i079ikh05a -->
-<!-- metadata: ah45k0n97f -->
 | `OPENAI_MODEL`   | ❌       | Model override. Defaults to `gpt-4o-mini`.   |
 
 ## Architecture
@@ -66,6 +64,8 @@ components/
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
                                 radial layout & ancestry walk
+```
+
 ## Keyboard
 
 | Key                  | Action                          |
