@@ -32,7 +32,6 @@ npm install
 
 # 2. add your OpenAI key
 cp .env.example .env.local
-# then edit .env.local and paste your sk-... key
 
 # 3. run
 npm run dev
@@ -58,6 +57,14 @@ app/
   page.tsx                    ← mounts the client-only Canvas
   globals.css                 ← grid, glass, edge animations
 components/
+<!-- metadata: 125aktjrtf -->
+<!-- metadata: bzbjbbsn8i -->
+<!-- metadata: dhis7wbcyn -->
+<!-- metadata: 39e9dmb0b9 -->
+<!-- metadata: pu5holyfok -->
+<!-- metadata: dese8xh5if -->
+<!-- metadata: xjxeiyu7bk -->
+<!-- metadata: 6vex3j5v1l -->
   Canvas.tsx                  ← React Flow + minimap + welcome + toolbar
   CustomNode.tsx              ← glassmorphic node (root / child / synthesis)
   CommandBar.tsx              ← floating ⌘K seed input
