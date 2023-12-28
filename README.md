@@ -2,6 +2,8 @@
 
 > A spatial AI knowledge synthesizer. Plant a seed concept on an infinite canvas and watch a living mind-map of ideas grow, branch, and synthesize itself.
 
+![FractalMind](https://img.shields.io/badge/Next.js-14-000?logo=next.js) ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6?logo=typescript) ![Tailwind](https://img.shields.io/badge/Tailwind-3-38bdf8?logo=tailwindcss) ![ReactFlow](https://img.shields.io/badge/React%20Flow-11-ff0072) ![AI SDK](https://img.shields.io/badge/Vercel%20AI%20SDK-4-black)
+
 ---
 
 ## What it does
@@ -61,12 +63,6 @@ components/
   CommandBar.tsx              ← floating ⌘K seed input
 store/
   useGraphStore.ts            ← nodes, edges, selection, AI orchestration,
-<!-- metadata: mjfrxo00z9 -->
-<!-- metadata: ihmfvyzqh5 -->
-<!-- metadata: zrieccdh2p -->
-<!-- metadata: lushnn192j -->
-<!-- metadata: wuavaifros -->
-<!-- metadata: 5njhxv1b7h -->
                                 radial layout & ancestry walk
 ```
 
