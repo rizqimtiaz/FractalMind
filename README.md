@@ -21,16 +21,6 @@
 | Canvas           | React Flow 11 (custom nodes, smoothstep edges, minimap) |
 | AI               | Vercel AI SDK (`generateObject`) + OpenAI               |
 | State            | Zustand                                                 |
-<!-- metadata: oxfg2p0df8 -->
-<!-- metadata: pw2kfk0l7m -->
-<!-- metadata: x5xq6imrfa -->
-<!-- metadata: c42jmj8tyl -->
-<!-- metadata: v2qd2lglrn -->
-<!-- metadata: 2qz1ztbd4u -->
-<!-- metadata: g6un29m3bk -->
-<!-- metadata: evjbjsc1fr -->
-<!-- metadata: dvxqg0pjtf -->
-<!-- metadata: myay1zymd9 -->
 | Styling          | Tailwind CSS + custom glassmorphism + Framer Motion     |
 | Iconography      | lucide-react                                            |
 
@@ -60,6 +50,9 @@ Open <http://localhost:3000>.
 ## Architecture
 
 ```
+app/
+  api/
+    generate-nodes/route.ts   ← AI: seed + expand fan-outs (Zod-typed)
     synthesize/route.ts       ← AI: lateral-thinking concept fusion
   layout.tsx                  ← Inter + Space Grotesk, dark theme
   page.tsx                    ← mounts the client-only Canvas
